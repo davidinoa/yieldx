@@ -1,0 +1,101 @@
+@import "~@ag-grid-community/core/dist/styles/ag-grid.scss";
+@import "~@ag-grid-community/core/dist/styles/ag-theme-alpine-dark/sass/ag-theme-alpine-dark-mixin.scss";
+@import "theme/variables";
+
+.ag-theme-alpine-dark {
+  height: 400px;
+  width: 100%;
+
+  @include ag-theme-alpine-dark(
+    (
+      font-size: 14px,
+      background-color: $page,
+      border-color: #253859,
+      header-background-color: $page,
+      odd-row-background-color: #0e1f3b,
+      header-column-separator: false,
+      header-column-separator-height: 50%,
+      header-column-separator-width: 1px,
+      header-column-separator-color: #253859,
+      row-border-color: transparent
+    )
+  );
+
+  input[class^="ag-"] {
+    background: var(--page) !important;
+    border-radius: 100px !important;
+  }
+
+  .ag-icon.ag-icon-filter {
+    color: var(--lightest);
+  }
+
+  .ag-header-cell,
+  .ag-header-group-cell,
+  .ag-cell {
+    line-height: 24px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  .ag-header-cell-label {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .ag-header-cell-text {
+    font-weight: bold !important;
+    font-size: 10px !important;
+    line-height: 10px !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--subtext-3) !important;
+  }
+}
+
+.ag-theme-alpine {
+  color: black;
+
+  @include ag-theme-alpine(
+    (
+      font-size: 14px,
+      foreground-color: black,
+      header-background-color: transparent,
+      header-column-separator: false,
+      header-column-separator-color: black,
+      header-column-separator-height: 50%,
+      header-column-separator-width: 1px
+    )
+  );
+
+  .ag-header-cell,
+  .ag-header-group-cell,
+  .ag-cell {
+    background: transparent;
+    color: black;
+    line-height: 24px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  .ag-header-cell-label {
+    background: transparent;
+    color: black;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .ag-header-cell-text {
+    background: transparent;
+    color: black;
+    font-weight: bold !important;
+    font-size: 10px !important;
+    line-height: 10px !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+  }
+}

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioValue Should match snapshot markup 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: rgba(0,0,255,0.3);
+  border-radius: 0.35rem 0.35rem 0 0;
+  background: var(--dark);
+  padding: 0.35rem;
+}
+
+.c0 h3 {
+  color: var(--lightest);
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+@media (min-width:1600px) {
+  .c0 h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24"
+    >
+      <h3>
+        PORTFOLIO VALUE
+      </h3>
+    </div>
+  </div>
+  .c0 {
+  position: relative;
+  padding-top: 0.85rem;
+}
+
+.c0 span {
+  display: block;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 0.45rem;
+}
+
+.c0 span > sup {
+  font-size: 0.55em;
+  line-height: 22px;
+  padding: 0.25rem;
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 span {
+    font-size: 2rem;
+  }
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col"
+    >
+      <span>
+        $971
+        <sup>
+          .26
+        </sup>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

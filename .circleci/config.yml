@@ -1,0 +1,251 @@
+version: 2.1
+orbs:
+  codecov: codecov/codecov@1.0.5
+aliases:
+  - &install-jfrog-cli
+    run:
+      name: Install JFrog CLI
+      command: |
+        cd server
+        # Install JFrog CLI
+        curl -fL https://getcli.jfrog.io | sh
+        # Configure Artifactory instance with JFrog CLI
+        ./jfrog rt config --url https://bondhouse.jfrog.io/artifactory \
+        --user $ARTIFACTORY_USERNAME \
+        --password $ARTIFACTORY_PASSWORD \
+        --interactive=false
+  - &create-npmrc
+    run:
+      name: Setup .npmrc
+      command: |
+        cat \<<EOF > ~/.npmrc
+        @bondhouse:registry=https://bondhouse.jfrog.io/artifactory/api/npm/npm-local/
+        //bondhouse.jfrog.io/artifactory/api/npm/npm-local/:_password=${ARTIFACTORY_ENCRYPTED_PASSWORD}
+        //bondhouse.jfrog.io/artifactory/api/npm/npm-local/:username=${ARTIFACTORY_USERNAME}
+        //bondhouse.jfrog.io/artifactory/api/npm/npm-local/:email=bryan@bondhouse.com
+        //bondhouse.jfrog.io/artifactory/api/npm/npm-local/:always-auth=true
+        cache-folder=~/.cache/yarn
+        EOF
+  - &set-bh-credentials
+    run:
+      name: Set up ~/.bh/credentials.json
+      command: |
+        curl -L https://github.com/gruntwork-io/fetch/releases/download/v0.3.10/fetch_linux_amd64 -o fetch
+        chmod +x fetch
+        env GITHUB_OAUTH_TOKEN=$GITHUB_TOKEN ./fetch --repo=https://github.com/bondhouse/bh --tag=v0.4.1 --release-asset=bh_0.4.1_linux_amd64.tar.gz /tmp
+        tar xzvf /tmp/bh_0.4.1_linux_amd64.tar.gz -C /tmp
+        /tmp/bh login --email=$BH_USERNAME --password=$BH_PASSWORD
+  - &set-docker-environment-variables
+    run:
+      name: Determine Docker image name
+      command: |
+        if [ -n "$CIRCLE_TAG" ]; then
+          VERSION=$(echo $CIRCLE_TAG | tr -d v)
+        else
+          VERSION=$CIRCLE_SHA1
+        fi
+        REGISTRY=bondhouse-docker-local.jfrog.io
+        IMAGE_NAME=$REGISTRY/$CIRCLE_PROJECT_REPONAME:$VERSION
+        echo "export REGISTRY=$REGISTRY" >> $BASH_ENV
+        echo "export IMAGE_NAME=$IMAGE_NAME" >> $BASH_ENV
+jobs:
+  build-frontend:
+    docker:
+      - image: circleci/node:12.9.1-stretch
+    resource_class: large
+    steps:
+      - checkout
+      - *create-npmrc
+      - restore_cache:
+          keys:
+            - v1-yarn-packages-{{ checksum "client/yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: |
+            cd client
+            yarn install --immutable
+      - run:
+          name: Build bundle
+          command: |
+            cd client
+            yarn build --frozen-lockfile
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+          key: v1-yarn-packages-{{ checksum "client/yarn.lock" }}
+      - persist_to_workspace:
+          root: .
+          paths:
+            - client/build
+  test-e2e:
+    docker:
+      - image: circleci/node:12.9.1-stretch-browsers
+    resource_class: large
+    steps:
+      - checkout
+      - *set-bh-credentials
+      - *create-npmrc
+      - restore_cache:
+          keys:
+            - v1-yarn-packages-{{ checksum "client/yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: |
+            cd client
+            yarn install --immutable
+      - run:
+          name: Install Cypress
+          command: |
+            cd client
+            yarn run cypress install
+      - run:
+          name: Set localhost to 127.0.0.1
+          command: echo 127.0.0.1 devhost | sudo tee -a /etc/hosts
+      - run:
+          name: Run Cypress tests
+          record: true
+          parallel: true
+          parallelism: 4
+          group: "YieldX"
+          command: |
+            cd client
+            env BROWSER=none HOST=127.0.0.1 PORT=3000 yarn start | cat - &
+            sleep 60s
+            yarn run e2e --env circle=true --parallel --record --key $CYPRESS_RECORD_KEY
+          no_output_timeout: "1m"
+      - persist_to_workspace:
+          root: .
+          paths:
+            - client/coverage/e2e
+  test-frontend:
+    docker:
+      - image: circleci/node:12.9.1-stretch
+    resource_class: large
+    steps:
+      - checkout
+      - *create-npmrc
+      - restore_cache:
+          keys:
+            - v1-yarn-packages-{{ checksum "client/yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: |
+            cd client
+            yarn install --immutable
+      - run:
+          name: Run tests and generate coverage report
+          command: |
+            cd client
+            yarn test --coverage --testTimeout=60000 --maxWorkers=4 --coverageDirectory="./coverage/unit"
+      - persist_to_workspace:
+          root: .
+          paths:
+            - client/coverage/unit
+  upload-coverage:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - codecov/upload
+  build-backend:
+    docker:
+      - image: circleci/node:12.9.1-stretch
+    steps:
+      - checkout
+      - *install-jfrog-cli
+      - run:
+          name: Install dependencies
+          command: |
+            cd server
+            ./jfrog rt npmi npm
+      - run:
+          name: Build
+          command: |
+            cd server
+            npm run build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - server/dist
+            - server/node_modules
+  build-docker:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - setup_remote_docker
+      - *set-docker-environment-variables
+      - run:
+          name: Build Docker image
+          command: docker build . --tag $IMAGE_NAME
+  deploy-docker:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - setup_remote_docker
+      - *set-docker-environment-variables
+      - run:
+          name: Build Docker image
+          command: docker build . --tag $IMAGE_NAME
+      - run:
+          name: Deploy Docker image
+          command: |
+            echo $DOCKER_PASSWORD | docker login $REGISTRY --username $DOCKER_USERNAME --password-stdin
+            docker push $IMAGE_NAME
+workflows:
+  version: 2
+  default:
+    jobs:
+      - build-frontend:
+          context: default
+          filters:
+            tags:
+              only: /.*/
+      - test-frontend:
+          context: default
+          filters:
+            tags:
+              only: /.*/
+      - test-e2e:
+          context: default
+          filters:
+            tags:
+              only: /.*/
+      - upload-coverage:
+          context: default
+          requires:
+            - test-frontend
+            - test-e2e
+          filters:
+            tags:
+              only: /.*/
+      - build-backend:
+          context: default
+          filters:
+            tags:
+              only: /.*/
+      - build-docker:
+          context: default
+          requires:
+            - build-backend
+            - build-frontend
+          filters:
+            tags:
+              only: /.*/
+      - deploy-docker:
+          context: default
+          requires:
+            - build-docker
+            - test-frontend
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: master

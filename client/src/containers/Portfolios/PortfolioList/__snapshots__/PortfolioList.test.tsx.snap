@@ -1,0 +1,1812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioList Should render empty portfolio list properly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="sc-AzgDb labohN container-fluid"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="left default-page col"
+          >
+            <h1
+              data-testid="PageTitle"
+            >
+              <small>
+                Portfolio List
+              </small>
+              Manage portfolios
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="sc-bBrOnJ jSASZF container-fluid"
+      >
+        <div
+          class="content"
+        >
+          <div
+            class="sc-cOajty fwpwJO"
+          >
+            <svg>
+              no-portfolio.svg
+            </svg>
+            <h2>
+              No portfolios
+            </h2>
+            <p>
+              It looks like there aren’t any portfolios created yet. Please utilize one of the apps to create a fixed income portfolio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PortfolioList Should render up to 20 portfolios in a list 1`] = `
+<DocumentFragment>
+  .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.c10 > * {
+  margin-left: 15px;
+}
+
+.c11 {
+  padding: 0;
+  background: none;
+  font-weight: normal;
+  color: var(--neutral-color-4);
+}
+
+.c13 {
+  padding: 0;
+  background: none;
+  font-weight: bold;
+  color: #089aff;
+}
+
+.c12 path {
+  stroke: var(--neutral-color-4);
+}
+
+.c14 {
+  padding-top: 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 0.75rem;
+  margin-right: 0.75rem;
+  font-size: 0.65rem;
+}
+
+.c1 span i {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.c1 span b {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c1 span::after {
+  content: "";
+  border-right: solid 1px var(--light);
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c1 span:last-of-type::after {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 .custom-control.custom-checkbox .custom-control-.label {
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+}
+
+.c3 .custom-control.custom-checkbox .custom-control-.label::before {
+  background: transparent;
+  border: 1.5px solid var(--subtext-3);
+}
+
+.c4 {
+  padding-top: 0.35rem;
+}
+
+.c4 .order-filters {
+  max-width: 15.625rem;
+  margin-left: auto;
+}
+
+.c7 {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 0.725rem;
+  margin: 0;
+  line-height: normal;
+}
+
+.c8 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.6rem;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c5 {
+  height: 70px;
+  list-style: none;
+  border: 1px solid var(--light);
+  background: var(--dark);
+  border-radius: 5px;
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.c5 .no-borders::after {
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.c2.active,
+.c2.ready {
+  background: var(--active);
+}
+
+.c2.deactivated,
+.c2.inactive,
+.c2.blocked,
+.c2.closed,
+.c2.terminated {
+  background: var(--subtext-3);
+}
+
+.c2.tracking {
+  background: var(--tracking);
+}
+
+.c2.pending {
+  background: var(--caution);
+}
+
+.c2.error {
+  background: var(--issue);
+}
+
+.c9 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: var(--page);
+  font-weight: bold;
+  border-radius: 0.25rem;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 70px;
+  height: 26px;
+  font-size: 0.8rem;
+}
+
+.c9:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.c0 {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.c0 .left {
+  text-align: left !important;
+}
+
+.c0 .default-page {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.c0 h1 {
+  margin: 0;
+  position: relative;
+  font-size: 1.65rem;
+}
+
+.c0 h1 small {
+  display: block;
+  font-family: var(--font-secondary);
+  font-size: 0.415em;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.25em;
+  -moz-letter-spacing: 0.25em;
+  -ms-letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
+  color: var(--subtext-3);
+  width: 100%;
+}
+
+.c0 h1 small.reversed {
+  text-transform: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+@media (min-width:1600px) {
+  .c1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 span {
+    padding-right: 1.25rem;
+    margin-right: 1.25rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c7 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c8 {
+    font-size: 0.6875rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.575rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 {
+    height: 6px;
+    width: 6px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c9 {
+    width: 90px;
+    height: 30px;
+    font-size: 0.975rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width:1320px) {
+  .c0 h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 h1 {
+    font-size: 2rem;
+  }
+}
+
+<div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="c0 container-fluid"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="left default-page col"
+          >
+            <h1
+              data-testid="PageTitle"
+            >
+              <small>
+                Portfolio List
+              </small>
+              Manage portfolios
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="c1 col-17 col-xxl-16"
+      >
+        <span>
+          <i
+            class="c2 ready"
+          />
+          <b>
+            active:
+          </b>
+          0
+        </span>
+        <span>
+          <i
+            class="c2 terminated"
+          />
+          <b>
+            closed:
+          </b>
+          0
+        </span>
+        <span>
+          <i
+            class="c2 tracking"
+          />
+          <b>
+            tracking:
+          </b>
+          20
+        </span>
+      </div>
+      <div
+        class="c3 col-7 col-xxl-8"
+      />
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="c4 container fluid"
+      >
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-19"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-18"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-17"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-16"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-15"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-14"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-13"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-12"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-11"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-10"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-9"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-8"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-7"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-6"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-5"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-4"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-3"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-2"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-1"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          class="c5 row"
+          status="ready"
+        >
+          <div
+            class="c6 col-1 no-borders"
+          >
+            <i
+              class="c2 ready"
+            />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-14 col-xxl-16 col"
+          >
+            <span
+              class="c7"
+            >
+              MOCK PORTFOLIO
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-2 centered col"
+          >
+            <span
+              class="c7"
+            >
+              InPaaS
+            </span>
+            <span
+              class="c8"
+            >
+              type
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+          >
+            <span
+              class="c7"
+            >
+              Nov 1, 2020
+            </span>
+            <span
+              class="c8"
+            >
+              Created at
+            </span>
+          </div>
+          <div
+            class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+          >
+            <a
+              class="c9"
+              data-testid="PortfolioList-ShowPortfolioLink"
+              href="/portfolios/live/mock-0"
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <nav
+          class="c10"
+          data-testid="pagination"
+          hidden=""
+        >
+          <button
+            class="c11 c12"
+            data-testid="Pagination-ArrowButton-Back"
+            disabled=""
+            type="button"
+          >
+            <svg>
+              left.svg
+            </svg>
+          </button>
+          <button
+            class="c13"
+            data-testid="Pagination-Button-1"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="c11"
+            data-testid="Pagination-Button-2"
+            hidden=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="c11"
+            data-testid="Pagination-Button-3"
+            hidden=""
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="c11 c14"
+            hidden=""
+            type="button"
+          >
+            <svg>
+              ellipsis.svg
+            </svg>
+          </button>
+          <button
+            class="c11"
+            data-testid="Pagination-Button-0"
+            hidden=""
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="c13"
+            data-testid="Pagination-Button-1"
+            hidden=""
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="c11"
+            data-testid="Pagination-Button-2"
+            hidden=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="c11 c14"
+            hidden=""
+            type="button"
+          >
+            <svg>
+              ellipsis.svg
+            </svg>
+          </button>
+          <button
+            class="c11 c12"
+            data-testid="Pagination-ArrowButton-Next"
+            disabled=""
+            type="button"
+          >
+            <svg>
+              right.svg
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

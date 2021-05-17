@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioHeaderTitle Should render portfolio name and edit button if not review 1`] = `
+<DocumentFragment>
+  .c0 h1 {
+  line-height: 1.1em;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.c0 h1 svg {
+  margin-left: 0.5rem;
+}
+
+.c0 button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 0.25rem;
+}
+
+@media (min-width:1600px) {
+  .c0 h1 {
+    font-size: 1.95rem;
+  }
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24"
+    >
+      <h1>
+        Mock portfolio
+        <button
+          data-testid="edit-name-button"
+          type="button"
+        >
+          <svg
+            class=""
+          >
+            edit.svg
+          </svg>
+        </button>
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PortfolioHeaderTitle Should render properly if review for custom (best fit / asset explorer) 1`] = `
+<DocumentFragment>
+  .c0 h1 {
+  line-height: 1.1em;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.c0 h1 svg {
+  margin-left: 0.5rem;
+}
+
+.c0 button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 0.25rem;
+}
+
+@media (min-width:1600px) {
+  .c0 h1 {
+    font-size: 1.95rem;
+  }
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24"
+    >
+      <h1>
+        Review your portfolio
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PortfolioHeaderTitle Should render properly if review for inpaas 1`] = `
+<DocumentFragment>
+  .c0 h1 {
+  line-height: 1.1em;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.c0 h1 svg {
+  margin-left: 0.5rem;
+}
+
+.c0 button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 0.25rem;
+}
+
+@media (min-width:1600px) {
+  .c0 h1 {
+    font-size: 1.95rem;
+  }
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24"
+    >
+      <h1>
+        Review your proposal
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;

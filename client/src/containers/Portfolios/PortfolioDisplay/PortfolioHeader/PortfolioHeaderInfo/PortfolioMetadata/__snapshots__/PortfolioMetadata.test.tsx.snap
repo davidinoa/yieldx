@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioMetadata Allocations should be multiplied by 100 and replace undefined values with defaults 1`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Allocations should be multiplied by 100 and replace undefined values with defaults 2`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Displays targetYield as percentage and formats decimals when they exist 1`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Displays targetYield as percentage and formats decimals when they exist 2`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Displays targetYield as percentage and formats decimals when they exist 3`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Target income should display as $ value and be formatted with commas and decimals 1`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Target income should display as $ value and be formatted with commas and decimals 2`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;
+
+exports[`PortfolioMetadata Target income should display as $ value and be formatted with commas and decimals 3`] = `
+<DocumentFragment>
+  .c0 {
+  max-width: 45%;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0.live-inpaas {
+  max-width: 83%;
+}
+
+.c0.paper-inpaas {
+  max-width: 66%;
+}
+
+.c0 .small-col {
+  max-width: 160px;
+}
+
+.c0 .large-col {
+  max-width: 200px;
+}
+
+.c0 .metadata-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 .metadata-value {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.c0 .metadata-value a {
+  display: inline-block;
+  color: white;
+}
+
+.c0 .goal-min-max {
+  font-family: var(--font-secondary);
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--subtext-3);
+}
+
+.c0 .goal-separator {
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="c0 row mt-4 pt-3"
+    data-testid="PortfolioHeader-PortfolioMetadata"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,10 @@
+# Ignore everything first
+**
+
+# Client
+!client
+client/*
+!client/build
+
+# Server
+!server

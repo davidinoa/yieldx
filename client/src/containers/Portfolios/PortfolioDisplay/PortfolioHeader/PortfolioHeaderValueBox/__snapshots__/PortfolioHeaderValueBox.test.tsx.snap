@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioHeaderValueBox Should render external portfolio options when portfolioType is EXTERNAL 1`] = `
+<DocumentFragment>
+  .c0 {
+  border: 1px solid var(--border-new);
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.c1 {
+  background: rgba(0,0,255,0.3);
+  border-radius: 0.35rem 0.35rem 0 0;
+  background: var(--dark);
+  padding: 0.35rem;
+}
+
+.c1 h3 {
+  color: var(--lightest);
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.c2 {
+  position: relative;
+  padding-top: 0.85rem;
+}
+
+.c2 span {
+  display: block;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 0.45rem;
+}
+
+.c2 span > sup {
+  font-size: 0.55em;
+  line-height: 22px;
+  padding: 0.25rem;
+}
+
+.c3 {
+  border-top: solid 1px var(--border-new);
+  text-align: center;
+}
+
+.c3 button,
+.c3 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  background: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin: 0.5rem 0 0;
+  color: var(--lightest);
+  width: auto;
+  position: relative;
+  padding: 0 0.65rem;
+  font-size: 0.7rem;
+}
+
+.c3 button.invest-cta,
+.c3 a.invest-cta {
+  background: var(--primary);
+  color: white;
+  border-radius: 0.15rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0.15rem 0.75rem;
+  font-weight: bold;
+}
+
+.c3 button:last-of-type,
+.c3 a:last-of-type {
+  border: none;
+}
+
+.c3 span {
+  margin: 0.5rem 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: solid 1px var(--border-new);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c1 h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c3 button,
+  .c3 a {
+    padding: 0 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+<div
+    class="col-8 col-xxl-7"
+  >
+    <div
+      class="c0 container-fluid"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="c1 col-24"
+        >
+          <h3>
+            PORTFOLIO VALUE
+          </h3>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="c2 col"
+        >
+          <span>
+            $61,722
+            <sup>
+              .00
+            </sup>
+          </span>
+        </div>
+      </div>
+      <div
+        class="row"
+        data-testid="External-Portfolio-Header-Options"
+      >
+        <div
+          class="c3 col-24 d-flex flex-row justify-content-around"
+        >
+          <button
+            data-testid="rebalance-edit-button"
+            type="button"
+          >
+            Edit positions
+          </button>
+          <span />
+          <button
+            class=""
+            data-testid="delete-button"
+            type="button"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PortfolioHeaderValueBox Should render live portfolio options when portfolioType is LIVE 1`] = `
+<DocumentFragment>
+  .c7 {
+  margin: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.5rem;
+  color: var(--lightest);
+}
+
+.c6 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  border: 1px solid var(--border-new);
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.c1 {
+  background: rgba(0,0,255,0.3);
+  border-radius: 0.35rem 0.35rem 0 0;
+  background: var(--dark);
+  padding: 0.35rem;
+}
+
+.c1 h3 {
+  color: var(--lightest);
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.c2 {
+  position: relative;
+  padding-top: 0.85rem;
+}
+
+.c2 span {
+  display: block;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 0.45rem;
+}
+
+.c2 span > sup {
+  font-size: 0.55em;
+  line-height: 22px;
+  padding: 0.25rem;
+}
+
+.c4 {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border-new);
+}
+
+.c4 span.label {
+  display: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-family: var(--font-primary);
+  color: var(--subtext-3);
+  font-size: 0.6rem;
+}
+
+.c4 span.value {
+  display: inherit;
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.c4 span.value.positive {
+  color: var(--active);
+}
+
+.c4 span.value.negative {
+  color: var(--issue);
+}
+
+.c4 .divider {
+  border-right: 1px solid var(--border-new);
+}
+
+.c3 {
+  right: 5%;
+  top: 25%;
+  -webkit-transform: translate(0%,75%);
+  -ms-transform: translate(0%,75%);
+  transform: translate(0%,75%);
+  border: none;
+  background: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: radial-gradient( circle, var(--light) 2px, transparent 2.5px );
+  background-size: 100% 33.33%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c1 h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span.label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span.value {
+    font-size: 0.85rem;
+  }
+}
+
+<div
+    class="col-8 col-xxl-7"
+  >
+    <div
+      class="c0 container-fluid"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="c1 col-24"
+        >
+          <h3>
+            PORTFOLIO VALUE
+          </h3>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="c2 col"
+        >
+          <span>
+            $61,722
+            <sup>
+              .00
+            </sup>
+          </span>
+        </div>
+      </div>
+      <button
+        class="c3"
+        data-testid="more-button"
+        type="button"
+      />
+      <div
+        class="row"
+      >
+        <div
+          class="c4 col-24 d-flex justify-content-around"
+        >
+          <div
+            class="d-inline-block performance"
+          >
+            <span
+              class="label"
+            >
+              today gain/loss:
+            </span>
+            <span>
+              <div
+                class="c5"
+                height="100%"
+              >
+                <div
+                  class="c6"
+                >
+                  <div
+                    class="c7 spinner-border"
+                    data-testid="spinner"
+                  />
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

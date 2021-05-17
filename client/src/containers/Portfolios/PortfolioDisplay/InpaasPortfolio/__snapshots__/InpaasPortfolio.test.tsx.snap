@@ -1,0 +1,4667 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InpaasPortfolio Should match snapshot 1`] = `
+<DocumentFragment>
+  .c8 {
+  margin: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.5rem;
+  color: var(--lightest);
+}
+
+.c7 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c3 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c4 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c9 {
+  margin-left: auto;
+  color: var(--lightest);
+  font-size: 0.8rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.c0 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c0 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c1 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c2 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c2 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c5 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c3 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+<div
+    class="container-fluid"
+  >
+    <section
+      class="c0 container-fluid"
+    >
+      <div
+        class="mb-2 row"
+      >
+        <div
+          class="c1 col-16"
+        >
+          <h2>
+            Summary 
+          </h2>
+        </div>
+        <div
+          class="c2 col-8 d-flex align-items-center justify-content-end"
+        />
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Current Yield
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Current Income
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Expense ratio
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Risk
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+              <button
+                class="c9"
+                type="button"
+              >
+                Max Drawdown
+              </button>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  .c10 {
+  margin: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.5rem;
+  color: var(--lightest);
+}
+
+.c9 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  width: 100%;
+  height: 100%;
+}
+
+.c6 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c4 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c5 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c0 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c0 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c1 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c2 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c2 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+.c12 {
+  width: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c12 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c14 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c19 {
+  height: 100%;
+}
+
+.c19 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c16 {
+  position: relative;
+}
+
+.c18 {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.c18 > li.hidden {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c17 {
+  height: 250px;
+}
+
+.c13 {
+  height: 100%;
+}
+
+.c13 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c15 {
+  margin: 0;
+  padding: 0;
+}
+
+.c7 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c7 .horizontal-separator {
+  height: 2px;
+  width: 80%;
+  background: var(--border-new);
+}
+
+.c7 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c7 .comparison-value-container {
+  margin: auto auto 0 auto;
+}
+
+.c11 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c11 .comparison-toggle {
+  top: 0;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.c11 .toggle-button {
+  font-size: 10px;
+  width: 43px;
+}
+
+.c11 .toggle-button:first-of-type {
+  margin-left: 5px;
+}
+
+.c11 .toggle-button:last-of-type {
+  margin-right: 5px;
+}
+
+.c11 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c3 {
+  min-height: 296px;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c6 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c12 {
+    border-radius: 0.625rem;
+    padding: 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+<div
+    class="container-fluid"
+  >
+    <section
+      class="c0 container-fluid"
+    >
+      <div
+        class="mb-2 row"
+      >
+        <div
+          class="c1 col-16"
+        >
+          <h2>
+            Analytics 
+          </h2>
+        </div>
+        <div
+          class="c2 col-8 d-flex align-items-center justify-content-end"
+        />
+      </div>
+      <div
+        class="c3 mb-2 row"
+      >
+        <div
+          class="mb-1 col-12"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5 d-flex align-items-center"
+            >
+              Risk comparison
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c7 row"
+            >
+              <div
+                class="c8"
+                height="100%"
+              >
+                <div
+                  class="c9"
+                >
+                  <div
+                    class="c10 spinner-border"
+                    data-testid="spinner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-12"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5 d-flex align-items-center"
+            >
+              Expense ratio comparison
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c11 row"
+            >
+              <div
+                class="c8"
+                height="100%"
+              >
+                <div
+                  class="c9"
+                >
+                  <div
+                    class="c10 spinner-border"
+                    data-testid="spinner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c3 row"
+      >
+        <div
+          class="col-12"
+        >
+          <div
+            class="c12 c13"
+            id="card"
+          >
+            <div
+              class="c14"
+            >
+              sector allocation
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c15"
+            >
+              <div
+                class="c16 row"
+              >
+                <div
+                  class="c17 col-13"
+                >
+                  <canvas
+                    class="chartjs-render-monitor"
+                    height="0"
+                    id="sector-allocation"
+                    style="display: block;"
+                    width="0"
+                  />
+                </div>
+                <ul
+                  class="c18 0-legend col-11"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12"
+        >
+          <div
+            class="c12 c19"
+            id="card"
+          >
+            <div
+              class="c14"
+            >
+              yield contribution
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c8"
+              height="100%"
+            >
+              <div
+                class="c9"
+              >
+                <div
+                  class="c10 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  .c3 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c10 {
+  height: auto;
+  position: relative;
+  margin-bottom: 3rem;
+  z-index: 0;
+}
+
+.c10 p {
+  font-size: 0.65rem;
+  padding: 1rem 0.25rem;
+}
+
+.c5 {
+  background: #0e1f3b;
+  border: 1px solid #253859 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  width: 114px !important;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.c5 > svg {
+  margin-left: 0.5rem;
+}
+
+.c1 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c1 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c2 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c2 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c4 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c4 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+.c6 {
+  height: 2.5rem;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  border: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: var(--primary);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.45rem;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+}
+
+.c7 .ag-theme-alpine-dark,
+.c7 .ag-theme-alpine {
+  height: 400px;
+  width: 100%;
+}
+
+.c7 .ag-theme-alpine-dark .ag-popup,
+.c7 .ag-theme-alpine .ag-popup {
+  height: 0px;
+  width: 0px;
+}
+
+.c7 .ag-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c7 .ag-react-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c7 .ag-header-cell-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c7 .ag-header-cell-text {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c7 .ag-header {
+  background: var(--dark) !important;
+}
+
+.c9 {
+  background: var(--dark);
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.c9 .row-value,
+.c9 .row-label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.c9 .row-label {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #6980a6;
+}
+
+.c8 {
+  border: 1px solid var(--border-new);
+  height: 400px;
+}
+
+.c0 {
+  margin-top: 3rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c3 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c2 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c6 {
+    padding: 0.55rem 1.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="container-fluid mb-3"
+    >
+      <section
+        class="c1 container-fluid"
+      >
+        <div
+          class="mb-2 row"
+        >
+          <div
+            class="c2 col-16"
+          >
+            <h2>
+              Positions 
+              <i
+                class="c3"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </h2>
+          </div>
+          <div
+            class="c4 col-8 d-flex align-items-center justify-content-end"
+          >
+            <button
+              class="c5"
+            >
+              Export 
+              <svg>
+                export.svg
+              </svg>
+            </button>
+            <button
+              class="c6 pdf-hidden"
+              data-testid="edit-positions-button"
+              type="button"
+            >
+              Edit positions
+            </button>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="c7 col"
+          >
+            <div
+              class="c8 ag-theme-alpine-dark"
+            >
+              <div
+                style="height: 100%;"
+              >
+                <div
+                  class="ag-root-wrapper ag-layout-normal ag-ltr"
+                  ref="eRootWrapper"
+                >
+                  
+                
+                  <!--AG-GRID-HEADER-DROP-ZONES-->
+                  <div
+                    class="ag-column-drop-wrapper"
+                  >
+                    <div
+                      class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                    >
+                      <div
+                        class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                      >
+                        <span
+                          class="ag-icon ag-icon-group ag-column-drop-icon ag-column-drop-horizontal-icon"
+                          unselectable="on"
+                        />
+                      </div>
+                      <div
+                        class="ag-column-drop-list ag-column-drop-horizontal-list"
+                      >
+                        <span
+                          class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                        >
+                          Drag here to set row groups
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                    >
+                      <div
+                        class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                      >
+                        <span
+                          class="ag-icon ag-icon-pivot ag-column-drop-icon ag-column-drop-horizontal-icon"
+                          unselectable="on"
+                        />
+                      </div>
+                      <div
+                        class="ag-column-drop-list ag-column-drop-horizontal-list"
+                      >
+                        <span
+                          class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                        >
+                          Drag here to set column labels
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+                  <div
+                    class="ag-root-wrapper-body ag-layout-normal ag-focus-managed"
+                    ref="rootWrapperBody"
+                  >
+                    <div
+                      class="ag-tab-guard ag-tab-guard-top"
+                      tabindex="0"
+                    />
+                    
+                    
+                    <!--AG-GRID-COMP-->
+                    <div
+                      aria-colcount="13"
+                      aria-rowcount="1"
+                      class="ag-root ag-unselectable ag-layout-normal"
+                      ref="gridPanel"
+                      role="grid"
+                      unselectable="on"
+                    >
+                      
+        
+                      <!--AG-HEADER-ROOT-->
+                      <div
+                        class="ag-header ag-focus-managed ag-pivot-off"
+                        ref="headerRoot"
+                        role="presentation"
+                        style="height: 37px; min-height: 37px;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-header ag-hidden"
+                          ref="ePinnedLeftHeader"
+                          role="presentation"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="top: 0px; height: 36px; width: 0px;"
+                          />
+                        </div>
+                        
+            
+                        <div
+                          class="ag-header-viewport"
+                          ref="eHeaderViewport"
+                          role="presentation"
+                        >
+                          
+                
+                          <div
+                            class="ag-header-container"
+                            ref="eHeaderContainer"
+                            role="rowgroup"
+                            style="width: 1680px;"
+                          >
+                            <div
+                              aria-rowindex="1"
+                              class="ag-header-row ag-header-row-column"
+                              role="row"
+                              style="top: 0px; height: 36px; width: 1680px;"
+                            >
+                              <div
+                                class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                col-id="nonTradable"
+                                role="presentation"
+                                style="width: 200px; left: 0px;"
+                                tabindex="-1"
+                                unselectable="on"
+                              >
+                                
+            
+                                <div
+                                  class="ag-header-cell-resize"
+                                  ref="eResize"
+                                  role="presentation"
+                                />
+                                
+            
+                                <!--AG-CHECKBOX-->
+                                <div
+                                  class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                  ref="cbSelectAll"
+                                  role="presentation"
+                                >
+                                  
+            
+                                  <label
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    for="ag-input-id-63"
+                                    ref="eLabel"
+                                  />
+                                  
+            
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <input
+                                      aria-label="Toggle Selection of All Rows"
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-input-id-63"
+                                      ref="eInput"
+                                      type="checkbox"
+                                    />
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                                
+        
+                                <div
+                                  class="ag-cell-label-container ag-header-cell-sorted-none"
+                                >
+                                  
+            
+                                  <span
+                                    aria-hidden="true"
+                                    class="ag-header-icon ag-header-cell-menu-button"
+                                    ref="eMenu"
+                                    style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                  >
+                                    <span
+                                      class="ag-icon ag-icon-menu"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                  
+            
+                                  <div
+                                    class="ag-header-cell-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                    unselectable="on"
+                                  >
+                                    
+                
+                                    <span
+                                      aria-colindex="1"
+                                      class="ag-header-cell-text"
+                                      ref="eText"
+                                      role="columnheader"
+                                      unselectable="on"
+                                    >
+                                      Tradable
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                      ref="eFilter"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-filter"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                      ref="eSortOrder"
+                                    />
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                      ref="eSortAsc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-asc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                      ref="eSortDesc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-desc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                      ref="eSortNone"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-none"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                              </div>
+                              <div
+                                class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                col-id="asset.ticker"
+                                role="presentation"
+                                style="width: 88px; left: 200px;"
+                                tabindex="-1"
+                                unselectable="on"
+                              >
+                                
+            
+                                <div
+                                  class="ag-header-cell-resize"
+                                  ref="eResize"
+                                  role="presentation"
+                                />
+                                
+            
+                                <!--AG-CHECKBOX-->
+                                <div
+                                  class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                  ref="cbSelectAll"
+                                  role="presentation"
+                                >
+                                  
+            
+                                  <label
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    for="ag-input-id-66"
+                                    ref="eLabel"
+                                  />
+                                  
+            
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <input
+                                      aria-label="Toggle Selection of All Rows"
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-input-id-66"
+                                      ref="eInput"
+                                      type="checkbox"
+                                    />
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                                
+        
+                                <div
+                                  class="ag-cell-label-container ag-header-cell-sorted-none"
+                                >
+                                  
+            
+                                  <span
+                                    aria-hidden="true"
+                                    class="ag-header-icon ag-header-cell-menu-button"
+                                    ref="eMenu"
+                                    style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                  >
+                                    <span
+                                      class="ag-icon ag-icon-menu"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                  
+            
+                                  <div
+                                    class="ag-header-cell-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                    unselectable="on"
+                                  >
+                                    
+                
+                                    <span
+                                      aria-colindex="2"
+                                      class="ag-header-cell-text"
+                                      ref="eText"
+                                      role="columnheader"
+                                      unselectable="on"
+                                    >
+                                      Ticker
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                      ref="eFilter"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-filter"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                      ref="eSortOrder"
+                                    />
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                      ref="eSortAsc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-asc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                      ref="eSortDesc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-desc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                      ref="eSortNone"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-none"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-header ag-hidden"
+                          ref="ePinnedRightHeader"
+                          role="presentation"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="top: 0px; height: 36px; width: 0px;"
+                          />
+                        </div>
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-floating-top"
+                        ref="eTop"
+                        role="presentation"
+                        style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-floating-top ag-hidden"
+                          ref="eLeftTop"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-top-viewport"
+                          ref="eTopViewport"
+                          role="presentation"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-floating-top-container"
+                            ref="eTopContainer"
+                            role="presentation"
+                            style="width: 1680px;"
+                            unselectable="on"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-floating-top ag-hidden"
+                          ref="eRightTop"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-top-full-width-container ag-hidden"
+                          ref="eTopFullWidthContainer"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-body-viewport ag-layout-normal ag-row-no-animation"
+                        ref="eBodyViewport"
+                        role="presentation"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-cols-container ag-hidden"
+                          ref="eLeftContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-center-cols-clipper"
+                          ref="eCenterColsClipper"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-center-cols-viewport"
+                            ref="eCenterViewport"
+                            role="presentation"
+                            style="height: calc(100% + 0px);"
+                          >
+                            
+                    
+                            <div
+                              class="ag-center-cols-container"
+                              ref="eCenterContainer"
+                              role="rowgroup"
+                              style="width: 1680px; height: 1px;"
+                              unselectable="on"
+                            />
+                            
+                
+                          </div>
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-cols-container ag-hidden"
+                          ref="eRightContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-full-width-container"
+                          ref="eFullWidthContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-floating-bottom"
+                        ref="eBottom"
+                        role="presentation"
+                        style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-floating-bottom ag-hidden"
+                          ref="eLeftBottom"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-bottom-viewport"
+                          ref="eBottomViewport"
+                          role="presentation"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-floating-bottom-container"
+                            ref="eBottomContainer"
+                            role="presentation"
+                            style="width: 1680px;"
+                            unselectable="on"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-floating-bottom ag-hidden"
+                          ref="eRightBottom"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-bottom-full-width-container ag-hidden"
+                          ref="eBottomFullWidthContainer"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        aria-hidden="true"
+                        class="ag-body-horizontal-scroll"
+                        ref="eHorizontalScrollBody"
+                        style="height: 0px; max-height: 0px; min-height: 0px;"
+                      >
+                        
+            
+                        <div
+                          class="ag-horizontal-left-spacer ag-scroller-corner"
+                          ref="eHorizontalLeftSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+            
+                        <div
+                          class="ag-body-horizontal-scroll-viewport"
+                          ref="eBodyHorizontalScrollViewport"
+                          style="height: 0px; max-height: 0px; min-height: 0px;"
+                        >
+                          
+                
+                          <div
+                            class="ag-body-horizontal-scroll-container"
+                            ref="eBodyHorizontalScrollContainer"
+                            style="width: 1680px; height: 0px; max-height: 0px; min-height: 0px;"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-horizontal-right-spacer ag-scroller-corner"
+                          ref="eHorizontalRightSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <!--AG-OVERLAY-WRAPPER-->
+                      <div
+                        aria-hidden="true"
+                        class="ag-overlay"
+                        ref="overlayWrapper"
+                      >
+                        
+            
+                        <div
+                          class="ag-overlay-panel"
+                        >
+                          
+                
+                          <div
+                            class="ag-overlay-wrapper ag-layout-normal ag-overlay-no-rows-wrapper"
+                            ref="eOverlayWrapper"
+                          >
+                            <span
+                              class="ag-overlay-no-rows-center"
+                            >
+                              No Rows To Show
+                            </span>
+                          </div>
+                          
+            
+                        </div>
+                        
+        
+                      </div>
+                      
+    
+                    </div>
+                    
+                    
+                    <!--AG-SIDE-BAR-->
+                    <div
+                      class="ag-side-bar ag-unselectable ag-hidden"
+                      ref="sideBar"
+                    >
+                      
+            
+                      <!--AG-SIDE-BAR-BUTTONS-->
+                      <div
+                        class="ag-side-buttons"
+                        ref="sideBarButtons"
+                      />
+                      
+        
+                    </div>
+                    
+                
+                    <div
+                      class="ag-tab-guard ag-tab-guard-bottom"
+                      tabindex="0"
+                    />
+                  </div>
+                  
+                
+                  <!--AG-STATUS-BAR-->
+                  <div
+                    class="ag-status-bar ag-hidden"
+                    ref="statusBar"
+                  >
+                    
+            
+                    <div
+                      class="ag-status-bar-left"
+                      ref="eStatusBarLeft"
+                    />
+                    
+            
+                    <div
+                      class="ag-status-bar-center"
+                      ref="eStatusBarCenter"
+                    />
+                    
+            
+                    <div
+                      class="ag-status-bar-right"
+                      ref="eStatusBarRight"
+                    />
+                    
+        
+                  </div>
+                  
+                
+                  <!--AG-PAGINATION-->
+                  <div
+                    class="ag-paging-panel ag-unselectable ag-hidden"
+                  >
+                    
+                
+                    <span
+                      class="ag-paging-row-summary-panel"
+                      ref="eSummaryPanel"
+                    >
+                      
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbFirstRowOnPage"
+                      />
+                      
+                    to
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbLastRowOnPage"
+                      />
+                      
+                    of
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbRecordCount"
+                      />
+                      
+                
+                    </span>
+                    
+                
+                    <span
+                      class="ag-paging-page-summary-panel"
+                    >
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btFirst"
+                      >
+                        <span
+                          class="ag-icon ag-icon-first"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          First
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btPrevious"
+                      >
+                        <span
+                          class="ag-icon ag-icon-previous"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Previous
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <span
+                        class="ag-paging-description"
+                      >
+                        
+                        Page
+                        
+                        <span
+                          class="ag-paging-number"
+                          ref="lbCurrent"
+                        />
+                        
+                        of
+                        
+                        <span
+                          class="ag-paging-number"
+                          ref="lbTotal"
+                        />
+                        
+                    
+                      </span>
+                      
+                    
+                      <span
+                        class="ag-paging-number"
+                        ref="lbTotal"
+                      />
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btNext"
+                      >
+                        <span
+                          class="ag-icon ag-icon-next"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Next
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btLast"
+                      >
+                        <span
+                          class="ag-icon ag-icon-last"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Last
+                        </button>
+                        
+                    
+                      </div>
+                      
+                
+                    </span>
+                    
+            
+                  </div>
+                  
+                
+                  <!--AG-WATERMARK-->
+                  <div
+                    class="ag-watermark ag-hidden"
+                  >
+                    
+                    
+                    <div
+                      class="ag-watermark-text"
+                      ref="eLicenseTextRef"
+                    />
+                    
+               
+                  </div>
+                  
+            
+                </div>
+              </div>
+            </div>
+            <div
+              class="c9 hidden-pdf"
+            >
+              <span
+                class="row-label"
+              >
+                rows: 
+              </span>
+              <span
+                class="row-value"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="c10 container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <p>
+                  All orders received are considered “Day orders” and advertised yield levels on YieldX should be viewed as accurate estimations of transactable market levels given the aggregation of third party feeds received. Orders are no guarantee of execution and will depend on available liquidity and market stability at any given time. Orders will be executed through a variety of market platforms offering firm liquidity or via RFQ (Request For Quote) where advantageous to the customer and will be aggregated with other customer orders to help improve execution if necessary. No commission or mark-ups will be charged on any user order so the level we trade-at is the level you receive. Any orders raised outside of normal trading hours (8.30am-4.30pm EST.) will be raised at the start of the following trading day and levels may differ from levels shown at time of order.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`InpaasPortfolio Should multiply max drawdown by 100 to display 1`] = `
+<DocumentFragment>
+  .c8 {
+  margin: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.5rem;
+  color: var(--lightest);
+}
+
+.c7 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c3 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c4 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c9 {
+  margin-left: auto;
+  color: var(--lightest);
+  font-size: 0.8rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.c0 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c0 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c1 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c2 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c2 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c5 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c3 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+<div
+    class="container-fluid"
+  >
+    <section
+      class="c0 container-fluid"
+    >
+      <div
+        class="mb-2 row"
+      >
+        <div
+          class="c1 col-16"
+        >
+          <h2>
+            Summary 
+          </h2>
+        </div>
+        <div
+          class="c2 col-8 d-flex align-items-center justify-content-end"
+        />
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Current Yield
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Current Income
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Expense ratio
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-6"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4 d-flex align-items-center"
+            >
+              Max drawdown
+              <i
+                class="c5"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+              <button
+                class="c9"
+                type="button"
+              >
+                Risk
+              </button>
+            </div>
+            <div
+              class="c6"
+              height="100%"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  .c10 {
+  margin: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.5rem;
+  color: var(--lightest);
+}
+
+.c9 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  width: 100%;
+  height: 100%;
+}
+
+.c6 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c4 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c5 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c0 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c0 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c1 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c2 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c2 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+.c12 {
+  width: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c12 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c14 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c19 {
+  height: 100%;
+}
+
+.c19 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c16 {
+  position: relative;
+}
+
+.c18 {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.c18 > li.hidden {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c17 {
+  height: 250px;
+}
+
+.c13 {
+  height: 100%;
+}
+
+.c13 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c15 {
+  margin: 0;
+  padding: 0;
+}
+
+.c7 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c7 .horizontal-separator {
+  height: 2px;
+  width: 80%;
+  background: var(--border-new);
+}
+
+.c7 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c7 .comparison-value-container {
+  margin: auto auto 0 auto;
+}
+
+.c11 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c11 .comparison-toggle {
+  top: 0;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.c11 .toggle-button {
+  font-size: 10px;
+  width: 43px;
+}
+
+.c11 .toggle-button:first-of-type {
+  margin-left: 5px;
+}
+
+.c11 .toggle-button:last-of-type {
+  margin-right: 5px;
+}
+
+.c11 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c3 {
+  min-height: 296px;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c6 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c12 {
+    border-radius: 0.625rem;
+    padding: 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+<div
+    class="container-fluid"
+  >
+    <section
+      class="c0 container-fluid"
+    >
+      <div
+        class="mb-2 row"
+      >
+        <div
+          class="c1 col-16"
+        >
+          <h2>
+            Analytics 
+          </h2>
+        </div>
+        <div
+          class="c2 col-8 d-flex align-items-center justify-content-end"
+        />
+      </div>
+      <div
+        class="c3 mb-2 row"
+      >
+        <div
+          class="mb-1 col-12"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5 d-flex align-items-center"
+            >
+              Risk comparison
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c7 row"
+            >
+              <div
+                class="c8"
+                height="100%"
+              >
+                <div
+                  class="c9"
+                >
+                  <div
+                    class="c10 spinner-border"
+                    data-testid="spinner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-1 col-12"
+          data-testid="Portfolio-Metric-Card"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5 d-flex align-items-center"
+            >
+              Expense ratio comparison
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c11 row"
+            >
+              <div
+                class="c8"
+                height="100%"
+              >
+                <div
+                  class="c9"
+                >
+                  <div
+                    class="c10 spinner-border"
+                    data-testid="spinner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c3 row"
+      >
+        <div
+          class="col-12"
+        >
+          <div
+            class="c12 c13"
+            id="card"
+          >
+            <div
+              class="c14"
+            >
+              sector allocation
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c15"
+            >
+              <div
+                class="c16 row"
+              >
+                <div
+                  class="c17 col-13"
+                >
+                  <canvas
+                    class="chartjs-render-monitor"
+                    height="0"
+                    id="sector-allocation"
+                    style="display: block;"
+                    width="0"
+                  />
+                </div>
+                <ul
+                  class="c18 0-legend col-11"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12"
+        >
+          <div
+            class="c12 c19"
+            id="card"
+          >
+            <div
+              class="c14"
+            >
+              yield contribution
+              <i
+                class="c6"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </div>
+            <div
+              class="c8"
+              height="100%"
+            >
+              <div
+                class="c9"
+              >
+                <div
+                  class="c10 spinner-border"
+                  data-testid="spinner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  .c3 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c10 {
+  height: auto;
+  position: relative;
+  margin-bottom: 3rem;
+  z-index: 0;
+}
+
+.c10 p {
+  font-size: 0.65rem;
+  padding: 1rem 0.25rem;
+}
+
+.c5 {
+  background: #0e1f3b;
+  border: 1px solid #253859 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  width: 114px !important;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.c5 > svg {
+  margin-left: 0.5rem;
+}
+
+.c1 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c1 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c2 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c2 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c4 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c4 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+.c6 {
+  height: 2.5rem;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  border: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: var(--primary);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.45rem;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+}
+
+.c7 .ag-theme-alpine-dark,
+.c7 .ag-theme-alpine {
+  height: 400px;
+  width: 100%;
+}
+
+.c7 .ag-theme-alpine-dark .ag-popup,
+.c7 .ag-theme-alpine .ag-popup {
+  height: 0px;
+  width: 0px;
+}
+
+.c7 .ag-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c7 .ag-react-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c7 .ag-header-cell-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c7 .ag-header-cell-text {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c7 .ag-header {
+  background: var(--dark) !important;
+}
+
+.c9 {
+  background: var(--dark);
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.c9 .row-value,
+.c9 .row-label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.c9 .row-label {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #6980a6;
+}
+
+.c8 {
+  border: 1px solid var(--border-new);
+  height: 400px;
+}
+
+.c0 {
+  margin-top: 3rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c3 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+  .c2 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c6 {
+    padding: 0.55rem 1.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="container-fluid mb-3"
+    >
+      <section
+        class="c1 container-fluid"
+      >
+        <div
+          class="mb-2 row"
+        >
+          <div
+            class="c2 col-16"
+          >
+            <h2>
+              Positions 
+              <i
+                class="c3"
+              >
+                <svg>
+                  info.svg
+                </svg>
+              </i>
+            </h2>
+          </div>
+          <div
+            class="c4 col-8 d-flex align-items-center justify-content-end"
+          >
+            <button
+              class="c5"
+            >
+              Export 
+              <svg>
+                export.svg
+              </svg>
+            </button>
+            <button
+              class="c6 pdf-hidden"
+              data-testid="edit-positions-button"
+              type="button"
+            >
+              Edit positions
+            </button>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="c7 col"
+          >
+            <div
+              class="c8 ag-theme-alpine-dark"
+            >
+              <div
+                style="height: 100%;"
+              >
+                <div
+                  class="ag-root-wrapper ag-layout-normal ag-ltr"
+                  ref="eRootWrapper"
+                >
+                  
+                
+                  <!--AG-GRID-HEADER-DROP-ZONES-->
+                  <div
+                    class="ag-column-drop-wrapper"
+                  >
+                    <div
+                      class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                    >
+                      <div
+                        class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                      >
+                        <span
+                          class="ag-icon ag-icon-group ag-column-drop-icon ag-column-drop-horizontal-icon"
+                          unselectable="on"
+                        />
+                      </div>
+                      <div
+                        class="ag-column-drop-list ag-column-drop-horizontal-list"
+                      >
+                        <span
+                          class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                        >
+                          Drag here to set row groups
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                    >
+                      <div
+                        class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                      >
+                        <span
+                          class="ag-icon ag-icon-pivot ag-column-drop-icon ag-column-drop-horizontal-icon"
+                          unselectable="on"
+                        />
+                      </div>
+                      <div
+                        class="ag-column-drop-list ag-column-drop-horizontal-list"
+                      >
+                        <span
+                          class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                        >
+                          Drag here to set column labels
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+                  <div
+                    class="ag-root-wrapper-body ag-layout-normal ag-focus-managed"
+                    ref="rootWrapperBody"
+                  >
+                    <div
+                      class="ag-tab-guard ag-tab-guard-top"
+                      tabindex="0"
+                    />
+                    
+                    
+                    <!--AG-GRID-COMP-->
+                    <div
+                      aria-colcount="13"
+                      aria-rowcount="1"
+                      class="ag-root ag-unselectable ag-layout-normal"
+                      ref="gridPanel"
+                      role="grid"
+                      unselectable="on"
+                    >
+                      
+        
+                      <!--AG-HEADER-ROOT-->
+                      <div
+                        class="ag-header ag-focus-managed ag-pivot-off"
+                        ref="headerRoot"
+                        role="presentation"
+                        style="height: 37px; min-height: 37px;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-header ag-hidden"
+                          ref="ePinnedLeftHeader"
+                          role="presentation"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="top: 0px; height: 36px; width: 0px;"
+                          />
+                        </div>
+                        
+            
+                        <div
+                          class="ag-header-viewport"
+                          ref="eHeaderViewport"
+                          role="presentation"
+                        >
+                          
+                
+                          <div
+                            class="ag-header-container"
+                            ref="eHeaderContainer"
+                            role="rowgroup"
+                            style="width: 1680px;"
+                          >
+                            <div
+                              aria-rowindex="1"
+                              class="ag-header-row ag-header-row-column"
+                              role="row"
+                              style="top: 0px; height: 36px; width: 1680px;"
+                            >
+                              <div
+                                class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                col-id="nonTradable"
+                                role="presentation"
+                                style="width: 200px; left: 0px;"
+                                tabindex="-1"
+                                unselectable="on"
+                              >
+                                
+            
+                                <div
+                                  class="ag-header-cell-resize"
+                                  ref="eResize"
+                                  role="presentation"
+                                />
+                                
+            
+                                <!--AG-CHECKBOX-->
+                                <div
+                                  class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                  ref="cbSelectAll"
+                                  role="presentation"
+                                >
+                                  
+            
+                                  <label
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    for="ag-input-id-17"
+                                    ref="eLabel"
+                                  />
+                                  
+            
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <input
+                                      aria-label="Toggle Selection of All Rows"
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-input-id-17"
+                                      ref="eInput"
+                                      type="checkbox"
+                                    />
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                                
+        
+                                <div
+                                  class="ag-cell-label-container ag-header-cell-sorted-none"
+                                >
+                                  
+            
+                                  <span
+                                    aria-hidden="true"
+                                    class="ag-header-icon ag-header-cell-menu-button"
+                                    ref="eMenu"
+                                    style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                  >
+                                    <span
+                                      class="ag-icon ag-icon-menu"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                  
+            
+                                  <div
+                                    class="ag-header-cell-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                    unselectable="on"
+                                  >
+                                    
+                
+                                    <span
+                                      aria-colindex="1"
+                                      class="ag-header-cell-text"
+                                      ref="eText"
+                                      role="columnheader"
+                                      unselectable="on"
+                                    >
+                                      Tradable
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                      ref="eFilter"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-filter"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                      ref="eSortOrder"
+                                    />
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                      ref="eSortAsc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-asc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                      ref="eSortDesc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-desc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                      ref="eSortNone"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-none"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                              </div>
+                              <div
+                                class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                col-id="asset.ticker"
+                                role="presentation"
+                                style="width: 88px; left: 200px;"
+                                tabindex="-1"
+                                unselectable="on"
+                              >
+                                
+            
+                                <div
+                                  class="ag-header-cell-resize"
+                                  ref="eResize"
+                                  role="presentation"
+                                />
+                                
+            
+                                <!--AG-CHECKBOX-->
+                                <div
+                                  class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                  ref="cbSelectAll"
+                                  role="presentation"
+                                >
+                                  
+            
+                                  <label
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    for="ag-input-id-20"
+                                    ref="eLabel"
+                                  />
+                                  
+            
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <input
+                                      aria-label="Toggle Selection of All Rows"
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-input-id-20"
+                                      ref="eInput"
+                                      type="checkbox"
+                                    />
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                                
+        
+                                <div
+                                  class="ag-cell-label-container ag-header-cell-sorted-none"
+                                >
+                                  
+            
+                                  <span
+                                    aria-hidden="true"
+                                    class="ag-header-icon ag-header-cell-menu-button"
+                                    ref="eMenu"
+                                    style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                  >
+                                    <span
+                                      class="ag-icon ag-icon-menu"
+                                      unselectable="on"
+                                    />
+                                  </span>
+                                  
+            
+                                  <div
+                                    class="ag-header-cell-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                    unselectable="on"
+                                  >
+                                    
+                
+                                    <span
+                                      aria-colindex="2"
+                                      class="ag-header-cell-text"
+                                      ref="eText"
+                                      role="columnheader"
+                                      unselectable="on"
+                                    >
+                                      Ticker
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                      ref="eFilter"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-filter"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                      ref="eSortOrder"
+                                    />
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                      ref="eSortAsc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-asc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                      ref="eSortDesc"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-desc"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+                
+                                    <span
+                                      aria-hidden="true"
+                                      class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                      ref="eSortNone"
+                                    >
+                                      <span
+                                        class="ag-icon ag-icon-none"
+                                        unselectable="on"
+                                      />
+                                    </span>
+                                    
+            
+                                  </div>
+                                  
+        
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-header ag-hidden"
+                          ref="ePinnedRightHeader"
+                          role="presentation"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="top: 0px; height: 36px; width: 0px;"
+                          />
+                        </div>
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-floating-top"
+                        ref="eTop"
+                        role="presentation"
+                        style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-floating-top ag-hidden"
+                          ref="eLeftTop"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-top-viewport"
+                          ref="eTopViewport"
+                          role="presentation"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-floating-top-container"
+                            ref="eTopContainer"
+                            role="presentation"
+                            style="width: 1680px;"
+                            unselectable="on"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-floating-top ag-hidden"
+                          ref="eRightTop"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-top-full-width-container ag-hidden"
+                          ref="eTopFullWidthContainer"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-body-viewport ag-layout-normal ag-row-no-animation"
+                        ref="eBodyViewport"
+                        role="presentation"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-cols-container ag-hidden"
+                          ref="eLeftContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-center-cols-clipper"
+                          ref="eCenterColsClipper"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-center-cols-viewport"
+                            ref="eCenterViewport"
+                            role="presentation"
+                            style="height: calc(100% + 0px);"
+                          >
+                            
+                    
+                            <div
+                              class="ag-center-cols-container"
+                              ref="eCenterContainer"
+                              role="rowgroup"
+                              style="width: 1680px; height: 1px;"
+                              unselectable="on"
+                            />
+                            
+                
+                          </div>
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-cols-container ag-hidden"
+                          ref="eRightContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-full-width-container"
+                          ref="eFullWidthContainer"
+                          role="presentation"
+                          style="height: 1px;"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        class="ag-floating-bottom"
+                        ref="eBottom"
+                        role="presentation"
+                        style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                        unselectable="on"
+                      >
+                        
+            
+                        <div
+                          class="ag-pinned-left-floating-bottom ag-hidden"
+                          ref="eLeftBottom"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-bottom-viewport"
+                          ref="eBottomViewport"
+                          role="presentation"
+                          unselectable="on"
+                        >
+                          
+                
+                          <div
+                            class="ag-floating-bottom-container"
+                            ref="eBottomContainer"
+                            role="presentation"
+                            style="width: 1680px;"
+                            unselectable="on"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-pinned-right-floating-bottom ag-hidden"
+                          ref="eRightBottom"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+            
+                        <div
+                          class="ag-floating-bottom-full-width-container ag-hidden"
+                          ref="eBottomFullWidthContainer"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <div
+                        aria-hidden="true"
+                        class="ag-body-horizontal-scroll"
+                        ref="eHorizontalScrollBody"
+                        style="height: 0px; max-height: 0px; min-height: 0px;"
+                      >
+                        
+            
+                        <div
+                          class="ag-horizontal-left-spacer ag-scroller-corner"
+                          ref="eHorizontalLeftSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+            
+                        <div
+                          class="ag-body-horizontal-scroll-viewport"
+                          ref="eBodyHorizontalScrollViewport"
+                          style="height: 0px; max-height: 0px; min-height: 0px;"
+                        >
+                          
+                
+                          <div
+                            class="ag-body-horizontal-scroll-container"
+                            ref="eBodyHorizontalScrollContainer"
+                            style="width: 1680px; height: 0px; max-height: 0px; min-height: 0px;"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-horizontal-right-spacer ag-scroller-corner"
+                          ref="eHorizontalRightSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+        
+                      </div>
+                      
+        
+                      <!--AG-OVERLAY-WRAPPER-->
+                      <div
+                        aria-hidden="true"
+                        class="ag-overlay"
+                        ref="overlayWrapper"
+                      >
+                        
+            
+                        <div
+                          class="ag-overlay-panel"
+                        >
+                          
+                
+                          <div
+                            class="ag-overlay-wrapper ag-layout-normal ag-overlay-no-rows-wrapper"
+                            ref="eOverlayWrapper"
+                          >
+                            <span
+                              class="ag-overlay-no-rows-center"
+                            >
+                              No Rows To Show
+                            </span>
+                          </div>
+                          
+            
+                        </div>
+                        
+        
+                      </div>
+                      
+    
+                    </div>
+                    
+                    
+                    <!--AG-SIDE-BAR-->
+                    <div
+                      class="ag-side-bar ag-unselectable ag-hidden"
+                      ref="sideBar"
+                    >
+                      
+            
+                      <!--AG-SIDE-BAR-BUTTONS-->
+                      <div
+                        class="ag-side-buttons"
+                        ref="sideBarButtons"
+                      />
+                      
+        
+                    </div>
+                    
+                
+                    <div
+                      class="ag-tab-guard ag-tab-guard-bottom"
+                      tabindex="0"
+                    />
+                  </div>
+                  
+                
+                  <!--AG-STATUS-BAR-->
+                  <div
+                    class="ag-status-bar ag-hidden"
+                    ref="statusBar"
+                  >
+                    
+            
+                    <div
+                      class="ag-status-bar-left"
+                      ref="eStatusBarLeft"
+                    />
+                    
+            
+                    <div
+                      class="ag-status-bar-center"
+                      ref="eStatusBarCenter"
+                    />
+                    
+            
+                    <div
+                      class="ag-status-bar-right"
+                      ref="eStatusBarRight"
+                    />
+                    
+        
+                  </div>
+                  
+                
+                  <!--AG-PAGINATION-->
+                  <div
+                    class="ag-paging-panel ag-unselectable ag-hidden"
+                  >
+                    
+                
+                    <span
+                      class="ag-paging-row-summary-panel"
+                      ref="eSummaryPanel"
+                    >
+                      
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbFirstRowOnPage"
+                      />
+                      
+                    to
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbLastRowOnPage"
+                      />
+                      
+                    of
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        ref="lbRecordCount"
+                      />
+                      
+                
+                    </span>
+                    
+                
+                    <span
+                      class="ag-paging-page-summary-panel"
+                    >
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btFirst"
+                      >
+                        <span
+                          class="ag-icon ag-icon-first"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          First
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btPrevious"
+                      >
+                        <span
+                          class="ag-icon ag-icon-previous"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Previous
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <span
+                        class="ag-paging-description"
+                      >
+                        
+                        Page
+                        
+                        <span
+                          class="ag-paging-number"
+                          ref="lbCurrent"
+                        />
+                        
+                        of
+                        
+                        <span
+                          class="ag-paging-number"
+                          ref="lbTotal"
+                        />
+                        
+                    
+                      </span>
+                      
+                    
+                      <span
+                        class="ag-paging-number"
+                        ref="lbTotal"
+                      />
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btNext"
+                      >
+                        <span
+                          class="ag-icon ag-icon-next"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Next
+                        </button>
+                        
+                    
+                      </div>
+                      
+                    
+                      <div
+                        class="ag-paging-button-wrapper"
+                        ref="btLast"
+                      >
+                        <span
+                          class="ag-icon ag-icon-last"
+                          unselectable="on"
+                        />
+                        
+                        
+                        <button
+                          class="ag-paging-button"
+                          type="button"
+                        >
+                          Last
+                        </button>
+                        
+                    
+                      </div>
+                      
+                
+                    </span>
+                    
+            
+                  </div>
+                  
+                
+                  <!--AG-WATERMARK-->
+                  <div
+                    class="ag-watermark ag-hidden"
+                  >
+                    
+                    
+                    <div
+                      class="ag-watermark-text"
+                      ref="eLicenseTextRef"
+                    />
+                    
+               
+                  </div>
+                  
+            
+                </div>
+              </div>
+            </div>
+            <div
+              class="c9 hidden-pdf"
+            >
+              <span
+                class="row-label"
+              >
+                rows: 
+              </span>
+              <span
+                class="row-value"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="c10 container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <p>
+                  All orders received are considered “Day orders” and advertised yield levels on YieldX should be viewed as accurate estimations of transactable market levels given the aggregation of third party feeds received. Orders are no guarantee of execution and will depend on available liquidity and market stability at any given time. Orders will be executed through a variety of market platforms offering firm liquidity or via RFQ (Request For Quote) where advantageous to the customer and will be aggregated with other customer orders to help improve execution if necessary. No commission or mark-ups will be charged on any user order so the level we trade-at is the level you receive. Any orders raised outside of normal trading hours (8.30am-4.30pm EST.) will be raised at the start of the following trading day and levels may differ from levels shown at time of order.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

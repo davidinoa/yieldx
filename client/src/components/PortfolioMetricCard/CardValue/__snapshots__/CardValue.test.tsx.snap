@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardValue BPS format snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c0 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c0 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c0 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    250
+    <sup>
+      bps
+    </sup>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardValue Dollar format snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c0 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c0 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c0 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    $5,000
+    <sup>
+      .25
+    </sup>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardValue Helper text snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c0 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c0 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c0 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    $5,000
+    <sup>
+      .25
+    </sup>
+    <span>
+      /monthly
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardValue Percent format snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c0 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c0 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c0 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    12.25
+    <sup>
+      %
+    </sup>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardValue Should display 2 values if secondValue not undefined 1`] = `
+<DocumentFragment>
+  .c0 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c0 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c0 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c0 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="d-flex justify-content-between align-items-center"
+    >
+      <div>
+        3.00
+        <sup>
+          %
+        </sup>
+        <span>
+          /min
+        </span>
+      </div>
+      <div
+        class="allocation-separator"
+      />
+      <div>
+        5.20
+        <sup>
+          %
+        </sup>
+        <span>
+          /max
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

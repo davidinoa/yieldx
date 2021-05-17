@@ -1,0 +1,820 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserMenuDropDown Admin user type should see manage users and investor accounts links 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  margin: 1rem 0 0;
+  min-width: 256px;
+  height: auto;
+  border: 1px solid var(--border-new);
+  border-radius: 5px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.live-header-options {
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(1%,2%);
+  -ms-transform: translate(1%,2%);
+  transform: translate(1%,2%);
+}
+
+.c0.user-options {
+  top: 54%;
+  left: 7%;
+  -webkit-transform: translate(-83%,3%);
+  -ms-transform: translate(-83%,3%);
+  transform: translate(-83%,3%);
+}
+
+.c0 > div.arrow {
+  width: 60px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  top: -15px;
+}
+
+.c0 > div.arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  border-radius: 2px;
+}
+
+.c1 {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--dark);
+  border-bottom: 1px solid var(--border-new);
+  box-sizing: border-box;
+  padding: 1.5rem 20px;
+}
+
+.c1 .user-name {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.c1 div.user-last-login * {
+  color: var(--subtext-3);
+}
+
+.c1 div .last-login-label {
+  font-weight: bold;
+  font-size: 10px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-right: 0.25rem;
+  display: inline-block;
+  padding-top: 0.185rem;
+}
+
+.c1 div .last-login-value {
+  font-family: Roboto Mono;
+  font-size: 11px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--dark);
+  border-radius: 0 0 5px 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 .sign-out-container {
+  color: var(--primary);
+  height: 2rem;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1.5rem 20px;
+}
+
+.c3 {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: initial;
+  padding-left: 20px;
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.c3:hover {
+  background: var(--medium);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.c3.manage-users {
+  border-top: 1px solid var(--border-new);
+  border-bottom: 1px solid var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0.live-header-options {
+    -webkit-transform: translate(18%,1%);
+    -ms-transform: translate(18%,1%);
+    transform: translate(18%,1%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0.user-options {
+    -webkit-transform: translate(-65%,4%);
+    -ms-transform: translate(-65%,4%);
+    transform: translate(-65%,4%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 > div.arrow {
+    margin-right: 35px;
+    width: 70px;
+  }
+}
+
+<div
+    class="c0 user-options"
+  >
+    <div
+      class="arrow"
+    />
+    <div
+      class="c1"
+    >
+      <span
+        class="user-name"
+      >
+        Mock User
+      </span>
+      <div
+        class="user-last-login d-flex justify-content-center align-items-center"
+      >
+        <span
+          class="last-login-label"
+        >
+          Last login: 
+        </span>
+        <span
+          class="last-login-value"
+        >
+          Wed Apr 04 @4:00pm
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Login-&-security"
+        href="/login-security"
+      >
+        Login & security
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Investor-accounts"
+        href="/investors"
+      >
+        Investor accounts
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Portfolios"
+        href="/portfolios"
+      >
+        Portfolios
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Favorites"
+        href="/favorites"
+      >
+        Favorites
+      </a>
+      <a
+        class="c3 nav-item manage-users"
+        data-testid="Nav-Item-Manage-users"
+        href="/users"
+      >
+        Manage users
+      </a>
+      <div
+        class="sign-out-container d-flex w-100 align-items-center justify-content-center"
+      >
+        <a
+          data-testid="logout-link"
+          href="#"
+        >
+          Log Out
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UserMenuDropDown Default user type should not see manage users link 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  margin: 1rem 0 0;
+  min-width: 256px;
+  height: auto;
+  border: 1px solid var(--border-new);
+  border-radius: 5px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.live-header-options {
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(1%,2%);
+  -ms-transform: translate(1%,2%);
+  transform: translate(1%,2%);
+}
+
+.c0.user-options {
+  top: 54%;
+  left: 7%;
+  -webkit-transform: translate(-83%,3%);
+  -ms-transform: translate(-83%,3%);
+  transform: translate(-83%,3%);
+}
+
+.c0 > div.arrow {
+  width: 60px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  top: -15px;
+}
+
+.c0 > div.arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  border-radius: 2px;
+}
+
+.c1 {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--dark);
+  border-bottom: 1px solid var(--border-new);
+  box-sizing: border-box;
+  padding: 1.5rem 20px;
+}
+
+.c1 .user-name {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.c1 div.user-last-login * {
+  color: var(--subtext-3);
+}
+
+.c1 div .last-login-label {
+  font-weight: bold;
+  font-size: 10px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-right: 0.25rem;
+  display: inline-block;
+  padding-top: 0.185rem;
+}
+
+.c1 div .last-login-value {
+  font-family: Roboto Mono;
+  font-size: 11px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--dark);
+  border-radius: 0 0 5px 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 .sign-out-container {
+  color: var(--primary);
+  height: 2rem;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1.5rem 20px;
+}
+
+.c3 {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: initial;
+  padding-left: 20px;
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.c3:hover {
+  background: var(--medium);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.c3.manage-users {
+  border-top: 1px solid var(--border-new);
+  border-bottom: 1px solid var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0.live-header-options {
+    -webkit-transform: translate(18%,1%);
+    -ms-transform: translate(18%,1%);
+    transform: translate(18%,1%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0.user-options {
+    -webkit-transform: translate(-65%,4%);
+    -ms-transform: translate(-65%,4%);
+    transform: translate(-65%,4%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 > div.arrow {
+    margin-right: 35px;
+    width: 70px;
+  }
+}
+
+<div
+    class="c0 user-options"
+  >
+    <div
+      class="arrow"
+    />
+    <div
+      class="c1"
+    >
+      <span
+        class="user-name"
+      >
+        Mock User
+      </span>
+      <div
+        class="user-last-login d-flex justify-content-center align-items-center"
+      >
+        <span
+          class="last-login-label"
+        >
+          Last login: 
+        </span>
+        <span
+          class="last-login-value"
+        >
+          Wed Apr 04 @4:00pm
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Login-&-security"
+        href="/login-security"
+      >
+        Login & security
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Investor-accounts"
+        href="/investors"
+      >
+        Investor accounts
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Portfolios"
+        href="/portfolios"
+      >
+        Portfolios
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Favorites"
+        href="/favorites"
+      >
+        Favorites
+      </a>
+      <div
+        class="sign-out-container d-flex w-100 align-items-center justify-content-center"
+      >
+        <a
+          data-testid="logout-link"
+          href="#"
+        >
+          Log Out
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UserMenuDropDown Trial user type should not see manage users link or investors link 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  margin: 1rem 0 0;
+  min-width: 256px;
+  height: auto;
+  border: 1px solid var(--border-new);
+  border-radius: 5px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.live-header-options {
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(1%,2%);
+  -ms-transform: translate(1%,2%);
+  transform: translate(1%,2%);
+}
+
+.c0.user-options {
+  top: 54%;
+  left: 7%;
+  -webkit-transform: translate(-83%,3%);
+  -ms-transform: translate(-83%,3%);
+  transform: translate(-83%,3%);
+}
+
+.c0 > div.arrow {
+  width: 60px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  top: -15px;
+}
+
+.c0 > div.arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  border-radius: 2px;
+}
+
+.c1 {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--dark);
+  border-bottom: 1px solid var(--border-new);
+  box-sizing: border-box;
+  padding: 1.5rem 20px;
+}
+
+.c1 .user-name {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.c1 div.user-last-login * {
+  color: var(--subtext-3);
+}
+
+.c1 div .last-login-label {
+  font-weight: bold;
+  font-size: 10px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-right: 0.25rem;
+  display: inline-block;
+  padding-top: 0.185rem;
+}
+
+.c1 div .last-login-value {
+  font-family: Roboto Mono;
+  font-size: 11px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--dark);
+  border-radius: 0 0 5px 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 .sign-out-container {
+  color: var(--primary);
+  height: 2rem;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1.5rem 20px;
+}
+
+.c3 {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: initial;
+  padding-left: 20px;
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.c3:hover {
+  background: var(--medium);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.c3.manage-users {
+  border-top: 1px solid var(--border-new);
+  border-bottom: 1px solid var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0.live-header-options {
+    -webkit-transform: translate(18%,1%);
+    -ms-transform: translate(18%,1%);
+    transform: translate(18%,1%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0.user-options {
+    -webkit-transform: translate(-65%,4%);
+    -ms-transform: translate(-65%,4%);
+    transform: translate(-65%,4%);
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 > div.arrow {
+    margin-right: 35px;
+    width: 70px;
+  }
+}
+
+<div
+    class="c0 user-options"
+  >
+    <div
+      class="arrow"
+    />
+    <div
+      class="c1"
+    >
+      <span
+        class="user-name"
+      >
+        Mock User
+      </span>
+      <div
+        class="user-last-login d-flex justify-content-center align-items-center"
+      >
+        <span
+          class="last-login-label"
+        >
+          Last login: 
+        </span>
+        <span
+          class="last-login-value"
+        >
+          Wed Apr 04 @4:00pm
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Login-&-security"
+        href="/login-security"
+      >
+        Login & security
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Portfolios"
+        href="/portfolios"
+      >
+        Portfolios
+      </a>
+      <a
+        class="c3 nav-item"
+        data-testid="Nav-Item-Favorites"
+        href="/favorites"
+      >
+        Favorites
+      </a>
+      <div
+        class="sign-out-container d-flex w-100 align-items-center justify-content-center"
+      >
+        <a
+          data-testid="logout-link"
+          href="#"
+        >
+          Log Out
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

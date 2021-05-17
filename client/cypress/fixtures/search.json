@@ -1,0 +1,741 @@
+{
+  "found": 18,
+  "results": [
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.01
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.38,
+            "managementFee": 0.17
+          },
+          "managementCompany": "Fidelity Mgt & Research Company LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "3981cd46-7b6f-4f28-97e3-2d0df5a830cc",
+        "identifiers": {
+          "cusip": "316067107",
+          "isin": "US3160671075"
+        },
+        "name": "Fidelity Government Cash Reserves",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08036359
+        },
+        "ticker": "FDRXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 26.03695
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.08
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.11,
+            "managementFee": 0.09
+          },
+          "managementCompany": "Vanguard Group Inc",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 1
+        },
+        "id": "7aa7447e-0e3a-460c-bf0e-ccd3d62c25a4",
+        "identifiers": {
+          "cusip": "922906300",
+          "isin": "US9229063006"
+        },
+        "name": "Vanguard Federal Money Market Fund - Investor",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.22447136
+        },
+        "ticker": "VMFXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 26.009129
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.01
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.42,
+            "managementFee": 0.25
+          },
+          "managementCompany": "Fidelity Mgt & Research Company LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "6553ddd5-ce25-4db5-9e16-f728e4226853",
+        "identifiers": {
+          "cusip": "31617H102",
+          "isin": "US31617H1023"
+        },
+        "name": "Fidelity Government Money Market Fund",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.077951096
+        },
+        "ticker": "SPAXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.895771
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.05
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.17,
+            "managementFee": 0.18
+          },
+          "managementCompany": "BlackRock Advisors LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "bb20ea99-49fa-455e-adb3-ef98a4584cd5",
+        "identifiers": {
+          "cusip": "09248U700",
+          "isin": "US09248U7000"
+        },
+        "name": "BlackRock Liquidity FedFund - Institutional",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.090143174
+        },
+        "ticker": "TFDXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.533726
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.05
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.14,
+            "managementFee": 0.14
+          },
+          "managementCompany": "Fidelity Mgt & Research Company LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "d2239fc2-0508-4d50-8a06-2cc56c0d7a45",
+        "identifiers": {
+          "cusip": "31607A703",
+          "isin": "US31607A7037"
+        },
+        "name": "Fidelity Instl Government Portfolio - Instl",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.09139714
+        },
+        "ticker": "FRGXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.529114
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.03
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.18,
+            "managementFee": 0.08
+          },
+          "managementCompany": "JP Morgan Investment Management Inc",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "a4b7434d-0363-49ab-9d38-5236df3b6462",
+        "identifiers": {
+          "cusip": "4812C0670",
+          "isin": "US4812C06707"
+        },
+        "name": "JPMorgan US Government Money Market Fund - Capital",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08907274
+        },
+        "ticker": "OGVXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.439377
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.063
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.14,
+            "managementFee": 0.13
+          },
+          "managementCompany": "Wells Fargo Funds Management LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "1be462b9-567f-44a1-855e-61b4714e08fe",
+        "identifiers": {
+          "cusip": "949921126",
+          "isin": "US9499211269"
+        },
+        "name": "Wells Fargo Govt Money Market Fund - Sel",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.091265604
+        },
+        "ticker": "WFFXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.365896
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.04
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.16,
+            "managementFee": 0.14
+          },
+          "managementCompany": "Vanguard Group Inc",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 1
+        },
+        "id": "f4ec9202-0595-4e0d-b0ab-13944603b5c0",
+        "identifiers": {
+          "cusip": "922906201",
+          "isin": "US9229062016"
+        },
+        "name": "Vanguard Prime Money Market Fund - Investor",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.09950234
+        },
+        "ticker": "VMMXX",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 25.30507
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.26
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.2,
+            "managementFee": 0.18
+          },
+          "managementCompany": "Goldman Sachs Asset Management LP",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "3f8173ea-98b8-4b9a-aa52-4dc26e39c623",
+        "identifiers": {
+          "cusip": "38142B500",
+          "isin": "US38142B5003"
+        },
+        "name": "Goldman Sachs FS Treasury Instruments Fd - Inst",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08883079
+        },
+        "ticker": "FTIXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.154577
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.05
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.15,
+            "managementFee": 0.2
+          },
+          "managementCompany": "Federated Investors",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "d70816ca-8925-4de5-98ff-67759040deab",
+        "identifiers": {
+          "cusip": "608919718",
+          "isin": "US6089197189"
+        },
+        "name": "Federated Hermes Government Obligations Fd - Premier",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.09778692
+        },
+        "ticker": "GOFXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.119154
+    },
+    {
+      "asset": {
+        "analytics": {
+          "duration": 6.228,
+          "yield": 0.122
+        },
+        "assetSubtype": "Sovereign",
+        "assetType": "bond",
+        "bond": {
+          "accruedInterest": 0,
+          "classifications": {
+            "datastreamType": "Municipals"
+          },
+          "issuer": {
+            "longName": "TEXAS MUNICIPAL GAS ACQUISITION AND SUPPLY CORPORATION I",
+            "sector": "Energy"
+          },
+          "maturityDate": "2026-12-15",
+          "minimumDenomination": 5000,
+          "ratings": {
+            "snpLongTerm": {
+              "rating": "A-"
+            }
+          }
+        },
+        "id": "83950a2c-a7ac-404f-aee7-2f326731dca8",
+        "identifiers": {
+          "cusip": "88256CAW9",
+          "isin": "US88256CAW91"
+        },
+        "name": "TX 0.868 12/15/26 FRN",
+        "price": 99.244,
+        "scores": {
+          "liquidity": 1,
+          "risk": 3.8295884
+        },
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.116436
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.04
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.21,
+            "managementFee": 0.2
+          },
+          "managementCompany": "BNY Mellon Investment Management",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "2befb0ff-4f09-4406-8a89-d2a4f5cf3f3a",
+        "identifiers": {
+          "cusip": "262006208",
+          "isin": "US2620062081"
+        },
+        "name": "Dreyfus Government Cash Management - Institutional",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08959382
+        },
+        "ticker": "DGCXX",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 25.090883
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.05
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.17,
+            "managementFee": 0.18
+          },
+          "managementCompany": "BlackRock Advisors LLC",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "7a84938c-b461-4417-bea3-bf3d24cfd354",
+        "identifiers": {
+          "cusip": "09248U718",
+          "isin": "US09248U7182"
+        },
+        "name": "BlackRock Liquidity T-Fund - Institutional",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08916986
+        },
+        "ticker": "TSTXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.05757
+    },
+    {
+      "asset": {
+        "analytics": {
+          "duration": 2.737,
+          "yield": 0.54
+        },
+        "assetSubtype": "Sovereign",
+        "assetType": "bond",
+        "bond": {
+          "accruedInterest": 0.22,
+          "classifications": {
+            "datastreamType": "Municipals"
+          },
+          "issuer": {
+            "longName": "THE PORT AUTHORITY OF NEW YORK AND NEW JERSEY"
+          },
+          "maturityDate": "2023-07-01",
+          "minimumDenomination": 5000,
+          "ratings": {
+            "snpLongTerm": {
+              "rating": "A+"
+            }
+          }
+        },
+        "id": "51afee7e-9888-48d1-9b85-1d89199d5840",
+        "identifiers": {
+          "cusip": "73358W4V3",
+          "isin": "US73358W4V32"
+        },
+        "name": "NY 1.086 07/01/23",
+        "price": 101.503,
+        "scores": {
+          "liquidity": 1,
+          "risk": 3.4265246
+        },
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.039476
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 1
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.09,
+            "managementFee": 0.08
+          },
+          "managementCompany": "Vanguard Group Inc",
+          "netAssetValuePerShare": 14.72,
+          "tradeLotSize": 1
+        },
+        "id": "a859af09-6a10-42d9-88a5-e40261feb183",
+        "identifiers": {
+          "cusip": "922907878",
+          "isin": "US9229078780"
+        },
+        "name": "Vanguard Intermediate-Term Tax-Exempt Fund - Admiral",
+        "price": 14.72,
+        "scores": {
+          "liquidity": 3,
+          "risk": 6.028008
+        },
+        "ticker": "VWIUX",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 25.028774
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.2
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.2,
+            "managementFee": 0.15
+          },
+          "managementCompany": "Morgan Stanley Investment Management Inc",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "9b93c6a6-74e3-4860-a67b-365558d4cea5",
+        "identifiers": {
+          "cusip": "61747C707",
+          "isin": "US61747C7074"
+        },
+        "name": "Morgan Stanley Inst Liq Govt Port - Institutional",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.08986768
+        },
+        "ticker": "MVRXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 25.011076
+    },
+    {
+      "asset": {
+        "analytics": {
+          "duration": 6.96,
+          "yield": 0.685
+        },
+        "assetSubtype": "Sovereign",
+        "assetType": "bond",
+        "bond": {
+          "accruedInterest": 0,
+          "classifications": {
+            "datastreamType": "Municipals"
+          },
+          "issuer": {
+            "longName": "TEXAS MUNICIPAL GAS ACQUISITION AND SUPPLY CORPORATION II"
+          },
+          "maturityDate": "2027-09-15",
+          "minimumDenomination": 5000,
+          "ratings": {
+            "snpLongTerm": {
+              "rating": "A-"
+            }
+          }
+        },
+        "id": "70c631ff-0bb4-46db-ab7d-88f9107474b3",
+        "identifiers": {
+          "cusip": "88255QAE9",
+          "isin": "US88255QAE98"
+        },
+        "name": "TX 0.670 09/15/27 FRN",
+        "price": 95.334,
+        "scores": {
+          "liquidity": 1,
+          "risk": 4.2789135
+        },
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 24.979439
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 0.04
+        },
+        "assetSubtype": "Mutual Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.18,
+            "managementFee": 0.08
+          },
+          "managementCompany": "JP Morgan Investment Management Inc",
+          "netAssetValuePerShare": 1,
+          "tradeLotSize": 0
+        },
+        "id": "288656e9-7037-4a84-87d4-2decedab581d",
+        "identifiers": {
+          "cusip": "4812A0375",
+          "isin": "US4812A03757"
+        },
+        "name": "JPMorgan 100% US Treasury Secs Mny Mkt Fd - Capital",
+        "price": 1,
+        "scores": {
+          "liquidity": 3,
+          "risk": 0.087239794
+        },
+        "ticker": "CJTXX",
+        "universes": {
+          "liquid": false
+        }
+      },
+      "score": 24.971075
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 4.48
+        },
+        "assetSubtype": "Exchange Traded Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.49,
+            "managementFee": 0.49
+          },
+          "managementCompany": "BlackRock Fund Advisors",
+          "netAssetValuePerShare": 84.47,
+          "tradeLotSize": 0
+        },
+        "id": "c6ca5ec7-b13b-4639-9076-c2e607aa5f8f",
+        "identifiers": {
+          "cusip": "464288513",
+          "isin": "US4642885135"
+        },
+        "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+        "price": 84.5,
+        "scores": {
+          "liquidity": 3,
+          "risk": 10.766278
+        },
+        "ticker": "HYG",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 24.168077
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 6.64
+        },
+        "assetSubtype": "Exchange Traded Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.37,
+            "managementFee": 0.37
+          },
+          "managementCompany": "Northern Trust Investments Inc",
+          "netAssetValuePerShare": 46.98,
+          "tradeLotSize": 0
+        },
+        "id": "4207ed32-9c48-4235-9821-f0612f54a009",
+        "identifiers": {
+          "cusip": "33939L662",
+          "isin": "US33939L6627"
+        },
+        "name": "FlexShares High Yield Value-Scored Bond Index Fund",
+        "price": 46.939,
+        "scores": {
+          "liquidity": 3,
+          "risk": 10.629971
+        },
+        "ticker": "HYGV",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 19.045208
+    },
+    {
+      "asset": {
+        "analytics": {
+          "yield": 4.9
+        },
+        "assetSubtype": "Exchange Traded Funds",
+        "assetType": "fund",
+        "fund": {
+          "fees": {
+            "fundExpenseRatio": 0.53,
+            "managementFee": 0.65
+          },
+          "managementCompany": "BlackRock Fund Advisors",
+          "netAssetValuePerShare": 83.35,
+          "tradeLotSize": 0
+        },
+        "id": "2eb3e779-7c8e-4c2a-8d59-e330eb616474",
+        "identifiers": {
+          "cusip": "46431W606",
+          "isin": "US46431W6066"
+        },
+        "name": "iShares Interest Rate Hedged High Yield Bond ETF",
+        "price": 83.3326,
+        "scores": {
+          "liquidity": 2,
+          "risk": 15.469002
+        },
+        "ticker": "HYGH",
+        "universes": {
+          "liquid": true
+        }
+      },
+      "score": 18.08119
+    }
+  ]
+}

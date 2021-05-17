@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusList Should match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c0 span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 0.75rem;
+  margin-right: 0.75rem;
+  font-size: 0.65rem;
+}
+
+.c0 span i {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.c0 span b {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 span::after {
+  content: "";
+  border-right: solid 1px var(--light);
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c0 span:last-of-type::after {
+  border: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.c1.active,
+.c1.ready {
+  background: var(--active);
+}
+
+.c1.deactivated,
+.c1.inactive,
+.c1.blocked,
+.c1.closed,
+.c1.terminated {
+  background: var(--subtext-3);
+}
+
+.c1.tracking {
+  background: var(--tracking);
+}
+
+.c1.pending {
+  background: var(--caution);
+}
+
+.c1.error {
+  background: var(--issue);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 span {
+    padding-right: 1.25rem;
+    margin-right: 1.25rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 {
+    height: 6px;
+    width: 6px;
+  }
+}
+
+<div
+    class="c0 col-17 col-xxl-16"
+  >
+    <span>
+      <i
+        class="c1 ready"
+      />
+      <b>
+        active:
+      </b>
+      0
+    </span>
+    <span>
+      <i
+        class="c1 terminated"
+      />
+      <b>
+        closed:
+      </b>
+      0
+    </span>
+    <span>
+      <i
+        class="c1 tracking"
+      />
+      <b>
+        tracking:
+      </b>
+      100
+    </span>
+  </div>
+</DocumentFragment>
+`;

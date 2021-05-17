@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:3000/yieldx",
+  "projectId": "m9grnf",
+  "viewportWidth": 1200,
+  "viewportHeight": 800,
+  "requestTimeout": 20000,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "numTestsKeptInMemory": 5,
+  "taskTimeout": 20000,
+  "video": false
+}

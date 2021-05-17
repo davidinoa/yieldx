@@ -1,0 +1,46 @@
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 760px,
+  lg: 992px,
+  xl: 1320px,
+  xxl: 1600px,
+  uxl: 1900px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  xs: 320px,
+  sm: 540px,
+  md: 720px,
+  lg: 980px,
+  xl: 1100px,
+  xxl: 1440px,
+  //uxl: 1280px,
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 24;
+$grid-gutter-width: 12px;
+
+$card-border-color: #dfe2ea;
+$card-border-width: 1px;
+$card-border-radius: 5px;
+
+$body-bg: #03132f !default;
+$body-color: white !default;
+
+$btn-font-weight: bold;
+
+$zindex-popover: 10000;

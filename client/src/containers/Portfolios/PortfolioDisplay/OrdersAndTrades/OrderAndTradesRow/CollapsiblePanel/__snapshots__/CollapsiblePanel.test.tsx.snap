@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapsiblePanel Should correctly render no trades 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--dark);
+  margin-top: -7px;
+  margin-bottom: 30px;
+}
+
+.c0 ul {
+  padding: 0;
+}
+
+.c0 .order-info {
+  padding: 4.5rem 5rem;
+  padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #253859;
+}
+
+.c0 .order-info h4 {
+  margin-bottom: 1.5rem;
+}
+
+.c0 .order-info li {
+  font-size: 14px;
+}
+
+.c0 .order-info li .label {
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: #6980a6;
+}
+
+.c0 .trades {
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.c3 {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.c5 {
+  width: 100%;
+  background: #192b4a;
+  border: 1px solid #253859;
+  padding: 1rem;
+}
+
+.c1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: var(--lightest);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c8 {
+  border: 1px solid #253859;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: top;
+  -webkit-justify-content: top;
+  -ms-flex-pack: top;
+  justify-content: top;
+  padding: 1rem;
+  background: var(--dark);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.c4 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:last-child {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 > * {
+  width: 100%;
+}
+
+<span
+    data-testid="OrderAndTradesRow-CollapsiblePanel-5d62a607-9c33-4610-9310-eeb45351c37a"
+  >
+    <div
+      class="c0 row"
+    >
+      <div
+        class="order-info col"
+      >
+        <ul>
+          <h4
+            class="c1"
+          >
+            Order info:
+          </h4>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              order type:
+            </div>
+            Partial fill
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              good until cancel:
+            </div>
+            No
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              created at:
+            </div>
+            <span
+              class="c3"
+            >
+              July 15, 2020
+            </span>
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              updated at:
+            </div>
+            <span
+              class="c3"
+            >
+              July 15, 2020
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="trades col-16"
+      >
+        <div
+          class="c4"
+        >
+          <header
+            class="c5"
+          >
+            <h4
+              class="c1"
+            >
+              Trades:
+            </h4>
+            <div
+              class="c6"
+            >
+              <div
+                class="c7 col"
+              >
+                status
+              </div>
+              <div
+                class="c7 col"
+              >
+                quantity
+              </div>
+              <div
+                class="c7 col"
+              >
+                buy/sell
+              </div>
+              <div
+                class="c7 col"
+              >
+                fill price
+              </div>
+              <div
+                class="c7 col"
+              >
+                total amount
+              </div>
+              <div
+                class="c7 col"
+              >
+                updated
+              </div>
+            </div>
+          </header>
+          <div
+            class="c8"
+          >
+            <p
+              class="d-flex align-items-center justify-content-center"
+              style="font-size: 13px; height: 100%;"
+            >
+              <span>
+                No trades available
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`CollapsiblePanel Should render 1 trade 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: var(--dark);
+  margin-top: -7px;
+  margin-bottom: 30px;
+}
+
+.c0 ul {
+  padding: 0;
+}
+
+.c0 .order-info {
+  padding: 4.5rem 5rem;
+  padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #253859;
+}
+
+.c0 .order-info h4 {
+  margin-bottom: 1.5rem;
+}
+
+.c0 .order-info li {
+  font-size: 14px;
+}
+
+.c0 .order-info li .label {
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: #6980a6;
+}
+
+.c0 .trades {
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  --color-open: #fae369;
+  --color-pending: #fae369;
+  --color-executing: #0fd4ff;
+  --color-confirmed: #42f1d2;
+  --color-closed: var(--white);
+  --color-settled: var(--white);
+  --color-canceled: #f87584;
+  --background-open: #fae36910;
+  --background-pending: #fae36910;
+  --background-executing: #0fd4ff10;
+  --background-confirmed: #42f1d210;
+  --background-closed: #ffffff10;
+  --background-settled: #ffffff10;
+  --background-canceled: #f8758410;
+  color: var(--color-confirmed);
+  background: var(--background-confirmed);
+  padding: 5px 25px;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  width: 100%;
+  line-height: initial;
+}
+
+.c2 {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.c3 {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.c5 {
+  width: 100%;
+  background: #192b4a;
+  border: 1px solid #253859;
+  padding: 1rem;
+}
+
+.c1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: var(--lightest);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c8 {
+  border: 1px solid #253859;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: top;
+  -webkit-justify-content: top;
+  -ms-flex-pack: top;
+  justify-content: top;
+  padding: 1rem;
+  background: var(--dark);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.c4 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:last-child {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 > * {
+  width: 100%;
+}
+
+<span
+    data-testid="OrderAndTradesRow-CollapsiblePanel-5d62a607-9c33-4610-9310-eeb45351c37a"
+  >
+    <div
+      class="c0 row"
+    >
+      <div
+        class="order-info col"
+      >
+        <ul>
+          <h4
+            class="c1"
+          >
+            Order info:
+          </h4>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              order type:
+            </div>
+            Partial fill
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              good until cancel:
+            </div>
+            No
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              created at:
+            </div>
+            <span
+              class="c3"
+            >
+              July 15, 2020
+            </span>
+          </li>
+          <li
+            class="c2"
+          >
+            <div
+              class="label"
+            >
+              updated at:
+            </div>
+            <span
+              class="c3"
+            >
+              July 15, 2020
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="trades col-16"
+      >
+        <div
+          class="c4"
+        >
+          <header
+            class="c5"
+          >
+            <h4
+              class="c1"
+            >
+              Trades:
+            </h4>
+            <div
+              class="c6"
+            >
+              <div
+                class="c7 col"
+              >
+                status
+              </div>
+              <div
+                class="c7 col"
+              >
+                quantity
+              </div>
+              <div
+                class="c7 col"
+              >
+                buy/sell
+              </div>
+              <div
+                class="c7 col"
+              >
+                fill price
+              </div>
+              <div
+                class="c7 col"
+              >
+                total amount
+              </div>
+              <div
+                class="c7 col"
+              >
+                updated
+              </div>
+            </div>
+          </header>
+          <div
+            class="c8"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+                data-testid="CollapsiblePanel-TradesList-Status"
+              >
+                <div
+                  class="c9"
+                >
+                  CONFIRMED
+                </div>
+              </div>
+              <div
+                class="col"
+              >
+                200
+              </div>
+              <div
+                class="col"
+                data-testid="CollapsiblePanel-TradesList-Type"
+              >
+                BUY
+              </div>
+              <div
+                class="col"
+              >
+                $16.09
+              </div>
+              <div
+                class="col"
+              >
+                $3,218.00
+              </div>
+              <div
+                class="col"
+              >
+                Oct 9, 2020
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</DocumentFragment>
+`;

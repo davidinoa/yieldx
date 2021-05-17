@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTypeRow Should render closed portfolio status 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5
+        class="pr-2 status portfolio-status-closed"
+      >
+        CLOSED
+      </h5>
+      <h5
+        class="ml-3"
+      >
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        CUSTOM PORTFOLIO
+      </h5>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppTypeRow Should render custom review portfolio 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5>
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        CUSTOM PORTFOLIO
+      </h5>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppTypeRow Should render inpaas review portfolio with edit button 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+.c1 button {
+  background: inherit;
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 0;
+  color: var(--subtext-3);
+}
+
+.c1 .status-separator {
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 10px;
+  width: 1.5px;
+  background: var(--border-new);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5>
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        INPAAS PORTFOLIO
+      </h5>
+      <div
+        class="c1 d-flex"
+      >
+        <div
+          class="status-separator"
+        />
+        <button
+          class="ml-3"
+          data-testid="edit-name-button"
+          type="button"
+        >
+          <svg
+            class="mr-2"
+          >
+            edit.svg
+          </svg>
+          Edit goals
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppTypeRow Should render live portfolio status 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5
+        class="pr-2 status portfolio-status-live"
+      >
+        LIVE
+      </h5>
+      <h5
+        class="ml-3"
+      >
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        CUSTOM PORTFOLIO
+      </h5>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppTypeRow Should render paper portfolio status 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5
+        class="pr-2 status portfolio-status-paper"
+      >
+        PAPER
+      </h5>
+      <h5
+        class="ml-3"
+      >
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        CUSTOM PORTFOLIO
+      </h5>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AppTypeRow Should render pending portfolio status 1`] = `
+<DocumentFragment>
+  .c0 h5 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+}
+
+.c0 h5 > svg {
+  margin: -0.25rem 0.7rem 0 0;
+}
+
+.c0 h5 > svg > path {
+  fill: white;
+}
+
+.c0 h5.status {
+  border-right: solid 1px var(--border-new);
+  color: white;
+}
+
+.c0 h5.status::before {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
+
+.c0 h5.portfolio-status-paper::before {
+  background: var(--tracking);
+}
+
+.c0 h5.portfolio-status-live::before {
+  background: var(--active);
+}
+
+.c0 h5.portfolio-status-closed::before {
+  background: var(--lightest);
+}
+
+.c0 h5.portfolio-status-pending::before {
+  background: var(--caution);
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex"
+      data-testid="Header-Info-Status"
+    >
+      <h5
+        class="pr-2 status portfolio-status-pending"
+      >
+        PENDING
+      </h5>
+      <h5
+        class="ml-3"
+      >
+        <svg
+          height="13"
+          width="15"
+        >
+          portfolio.svg
+        </svg>
+        CUSTOM PORTFOLIO
+      </h5>
+    </div>
+  </div>
+</DocumentFragment>
+`;

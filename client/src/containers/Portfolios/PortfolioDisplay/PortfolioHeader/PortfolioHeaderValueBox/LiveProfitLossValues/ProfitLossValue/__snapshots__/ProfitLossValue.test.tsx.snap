@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfitLossValue Should render error icon if error prop is true 1`] = `
+<DocumentFragment>
+  <div
+    class="d-inline-block performance"
+  >
+    <span
+      class="label"
+    >
+      today gain/loss:
+    </span>
+    <span>
+      <svg>
+        red-alert.svg
+      </svg>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProfitLossValue Should render formatted value prop with correct class 1`] = `
+<DocumentFragment>
+  <div
+    class="d-inline-block performance"
+  >
+    <span
+      class="label"
+    >
+      today gain/loss:
+    </span>
+    <span
+      class="value positive"
+    >
+      + $3.50
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProfitLossValue Should render formatted value prop with correct class 2`] = `
+<DocumentFragment>
+  <div
+    class="d-inline-block performance"
+  >
+    <span
+      class="label"
+    >
+      today gain/loss:
+    </span>
+    <span
+      class="value"
+    >
+      $0.00
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProfitLossValue Should render formatted value prop with correct class 3`] = `
+<DocumentFragment>
+  <div
+    class="d-inline-block performance"
+  >
+    <span
+      class="label"
+    >
+      today gain/loss:
+    </span>
+    <span
+      class="value negative"
+    >
+      - $3.50
+    </span>
+  </div>
+</DocumentFragment>
+`;

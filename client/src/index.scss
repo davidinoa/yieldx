@@ -1,0 +1,89 @@
+@import "~bootstrap/bhBootstrap";
+@import "grid/style";
+@import "theme/colors";
+
+* {
+  outline: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: var(--font-primary);
+  :disabled {
+    opacity: 0.3;
+  }
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+  color: var(--white) !important;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: var(--page) !important;
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.modal {
+  z-index: var(--zindex-modal) !important;
+}
+
+.modal.fade .modal-dialog#modal-fade-right {
+  right: -150px;
+  transform: none;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal .modal-dialog#modal-fade-right {
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.show .modal-dialog#modal-fade-right {
+  right: 0;
+}
+
+.modal .modal-dialog#modal-fade-right .modal-content {
+  border: none;
+}
+
+.styled-modal-backdrop {
+  &.show {
+    background: var(--modal-backdrop) !important;
+    opacity: 1;
+    z-index: var(--zindex-modal-bg) !important;
+  }
+}
+
+body {
+  height: 100vh;
+  background-color: var(--darkest);
+}
+
+//// Modal classes
+button {
+  border: none;
+}
+
+#popover {
+  background: var(--darkest);
+  .popover-body {
+    color: var(--text);
+    border-radius: 5px;
+    background: var(--darkest);
+    padding: 15px;
+    min-width: 100px;
+    min-height: 60px;
+  }
+  .arrow::before,
+  .arrow::after {
+    border-top-color: var(--darkest);
+  }
+}

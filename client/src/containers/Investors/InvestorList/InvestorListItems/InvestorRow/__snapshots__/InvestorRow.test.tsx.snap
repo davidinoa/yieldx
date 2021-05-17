@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvestorRow Status column should render appropriately while fetching apex account status 1`] = `
+<DocumentFragment>
+  .c3 {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 0.725rem;
+  margin: 0;
+  line-height: normal;
+}
+
+.c4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.6rem;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c0 {
+  height: 70px;
+  list-style: none;
+  border: 1px solid var(--light);
+  background: var(--dark);
+  border-radius: 5px;
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.c0 .no-borders::after {
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.c2.active,
+.c2.ready {
+  background: var(--active);
+}
+
+.c2.deactivated,
+.c2.inactive,
+.c2.blocked,
+.c2.closed,
+.c2.terminated {
+  background: var(--subtext-3);
+}
+
+.c2.tracking {
+  background: var(--tracking);
+}
+
+.c2.pending {
+  background: var(--caution);
+}
+
+.c2.error {
+  background: var(--issue);
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: var(--page);
+  font-weight: bold;
+  border-radius: 0.25rem;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 70px;
+  height: 26px;
+  font-size: 0.8rem;
+}
+
+.c5:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width:1600px) {
+  .c3 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    font-size: 0.6875rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.575rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 {
+    height: 6px;
+    width: 6px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c5 {
+    width: 90px;
+    height: 30px;
+    font-size: 0.975rem;
+  }
+}
+
+<div
+    class="c0 row"
+  >
+    <div
+      class="c1 col-1 no-borders"
+    >
+      <i
+        class="c2 active"
+      />
+    </div>
+    <div
+      class="d-flex flex-column justify-content-center p-0 col"
+    >
+      <span
+        class="c3"
+      >
+        Alfredo Alpizar
+      </span>
+      <span
+        class="c4"
+      >
+        INVESTOR NAME
+      </span>
+    </div>
+    <div
+      class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+    >
+      <span
+        class="c3"
+      >
+        INDIVIDUAL
+      </span>
+      <span
+        class="c4"
+      >
+        TYPE
+      </span>
+    </div>
+    <div
+      class="d-flex flex-column justify-content-center col-4 col-xxl-3 centered col"
+    >
+      <span
+        class="c3"
+      >
+        May 18, 2020
+      </span>
+      <span
+        class="c4"
+      >
+        CREATED AT
+      </span>
+    </div>
+    <div
+      class="d-flex flex-column col-3 col-xxl-2 centered justify-content-center"
+    >
+      <a
+        class="c5"
+        data-disabled="false"
+        data-testid="InvestorList-ShowInvestorLink"
+        href="/investors/investorId"
+      >
+        Details
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

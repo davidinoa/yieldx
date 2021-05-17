@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RiskComparison Should match snapshot 1`] = `
+<DocumentFragment>
+  .c2 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c0 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c0 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c1 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c1 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c4 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c4 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c4 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c4 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c3 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c3 .horizontal-separator {
+  height: 2px;
+  width: 80%;
+  background: var(--border-new);
+}
+
+.c3 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c3 .comparison-value-container {
+  margin: auto auto 0 auto;
+}
+
+@media (min-width:1600px) {
+  .c2 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 sup {
+    font-size: 1.15rem;
+  }
+}
+
+<div
+    class="mb-1 col-12"
+    data-testid="Portfolio-Metric-Card"
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1 d-flex align-items-center"
+      >
+        Risk comparison
+        <i
+          class="c2"
+        >
+          <svg>
+            info.svg
+          </svg>
+        </i>
+      </div>
+      <div
+        class="c3 row"
+      >
+        <div
+          class="col-7 d-flex flex-column justify-content-between"
+        >
+          <div
+            class="comparison-value-container"
+          >
+            <div
+              class="c4"
+            >
+              78.57
+              <sup>
+                %
+              </sup>
+            </div>
+            <span
+              class="comparison-label"
+            >
+              LESS RISK
+            </span>
+          </div>
+          <div
+            class="horizontal-separator m-auto"
+          />
+          <div
+            class="comparison-value-container mt-0 mb-auto"
+          >
+            <div
+              class="c4"
+            >
+              836
+              <sup>
+                bps
+              </sup>
+            </div>
+            <span
+              class="comparison-label"
+            >
+              REDUCTION
+            </span>
+          </div>
+        </div>
+        <div
+          class="col-1 d-flex justify-content-center align-content-center"
+        >
+          <div
+            class="vertical-separator m-auto"
+          />
+        </div>
+        <div
+          class="col-16"
+        >
+          <div
+            style="width: 100%; height: 100%;"
+          >
+            <div
+              style="width: 0px; height: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

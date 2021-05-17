@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleValue Should display text button with toggleLabel prop 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-left: auto;
+  color: var(--lightest);
+  font-size: 0.8rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+<button
+    class="c0"
+    type="button"
+  >
+    Annual
+  </button>
+</DocumentFragment>
+`;
+
+exports[`ToggleValue Should render switch if label is $ or % 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  background: var(--page);
+  border-radius: 18px;
+  height: 24px;
+}
+
+.c0 .toggle-button {
+  background: none;
+  z-index: 1;
+  border: none;
+  padding: 7px;
+  height: 18px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 12px;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.c0::before {
+  content: "";
+  background: var(--light);
+  width: 50%;
+  position: absolute;
+  border-radius: 12px;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  top: 3px;
+  height: 18px;
+  left: 2px;
+}
+
+.c0.toggled::before {
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  left: 47%;
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    border-radius: 24px;
+    height: 32px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 .toggle-button {
+    height: 24px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0::before {
+    top: 4px;
+    height: 24px;
+  }
+}
+
+<div
+    class="c0 d-flex align-items-center "
+  >
+    <button
+      class="d-flex justify-content-center align-items-center toggle-button"
+      data-testid="ToggleValue-Percent"
+      type="button"
+    >
+      %
+    </button>
+    <button
+      class="d-flex justify-content-center align-items-center toggle-button"
+      data-testid="ToggleValue-Dollar"
+      type="button"
+    >
+      $
+    </button>
+  </div>
+</DocumentFragment>
+`;

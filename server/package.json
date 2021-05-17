@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "windows": "set PLAID_ENV=sandbox&&node -r ts-node/register index.ts",
+    "start": "PLAID_ENV=sandbox node -r ts-node/register index.ts",
+    "server": "env-cmd -f ./configure/dev.env node -r ts-node/register index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.3",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@bondhouse/bh-authenticator-node": "0.0.1"
+  }
+}

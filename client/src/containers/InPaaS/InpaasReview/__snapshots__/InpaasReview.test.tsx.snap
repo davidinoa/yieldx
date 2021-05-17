@@ -1,0 +1,2323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InpaasReview Should match snapshot 1`] = `
+<DocumentFragment>
+  .c27 {
+  height: auto;
+  position: relative;
+  margin-bottom: 3rem;
+  z-index: 0;
+}
+
+.c27 p {
+  font-size: 0.65rem;
+  padding: 1rem 0.25rem;
+}
+
+.c5 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c23 {
+  background: #0e1f3b;
+  border: 1px solid #253859 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  width: 114px !important;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.c23 > svg {
+  margin-left: 0.5rem;
+}
+
+.c0 {
+  margin-bottom: 3rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 .analytics-card-container {
+  min-height: 20rem;
+  margin-bottom: 0.85rem;
+}
+
+.c0 .analytics-card-container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c1 h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.c1 svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c2 span {
+  border: solid 1px var(--border-new);
+  color: var(--primary);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.c2 span b {
+  font-weight: bold;
+  color: var(--lightest);
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 0.5rem;
+}
+
+.c24 {
+  margin-bottom: 1rem;
+}
+
+.c24 .ag-theme-alpine-dark,
+.c24 .ag-theme-alpine {
+  height: 400px;
+  width: 100%;
+}
+
+.c24 .ag-theme-alpine-dark .ag-popup,
+.c24 .ag-theme-alpine .ag-popup {
+  height: 0px;
+  width: 0px;
+}
+
+.c24 .ag-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c24 .ag-react-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: flex-center;
+  -ms-flex-pack: center;
+  justify-content: flex-center;
+}
+
+.c24 .ag-header-cell-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c24 .ag-header-cell-text {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c24 .ag-header {
+  background: var(--dark) !important;
+}
+
+.c25 {
+  background: var(--dark);
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.c25 .row-value,
+.c25 .row-label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.c25 .row-label {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #6980a6;
+}
+
+.c26 {
+  border: 1px solid var(--border-new);
+  height: 400px;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c3 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  position: relative;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c4 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c6 {
+  line-height: normal;
+  font-size: 1.5rem;
+}
+
+.c6 sup {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.c6 span {
+  color: var(--subtext-3);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.c6 .allocation-separator {
+  height: 23px;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c7 {
+  margin-left: auto;
+  color: var(--lightest);
+  font-size: 0.8rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.c11 {
+  position: relative;
+  background: var(--page);
+  border-radius: 18px;
+  height: 24px;
+}
+
+.c11 .toggle-button {
+  background: none;
+  z-index: 1;
+  border: none;
+  padding: 7px;
+  height: 18px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 12px;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.c11::before {
+  content: "";
+  background: var(--light);
+  width: 50%;
+  position: absolute;
+  border-radius: 12px;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  top: 3px;
+  height: 18px;
+  left: 2px;
+}
+
+.c11.toggled::before {
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  left: 47%;
+}
+
+.c21 {
+  padding: 1.5rem 0.5rem 0;
+}
+
+.c12 {
+  width: 100%;
+  background: var(--dark);
+  border: 1px solid var(--border-new);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  border-radius: 0.5rem;
+  padding: 1rem 1.15rem;
+  min-height: 6rem;
+}
+
+.c12 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  font-weight: bold;
+  line-height: normal;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lightest);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  font-size: 0.65rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.25rem;
+  max-height: 2rem;
+}
+
+.c14 > svg {
+  margin: -0.5rem 0 0 0.35rem;
+  vertical-align: middle;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.c20 {
+  height: 100%;
+}
+
+.c20 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c16 {
+  position: relative;
+}
+
+.c19 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.c19:not(last-child) {
+  margin-bottom: 8px;
+}
+
+.c19 > div > span {
+  border-radius: 2px;
+  width: 11px;
+  max-width: 11px;
+  height: 11px;
+  display: inline-block;
+}
+
+.c19 > span {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c19 > span.highlighted {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--primary);
+  text-decoration-color: var(--primary);
+}
+
+.c18 {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.c18 > li.hidden {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c17 {
+  height: 250px;
+}
+
+.c13 {
+  height: 100%;
+}
+
+.c13 li > span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.c15 {
+  margin: 0;
+  padding: 0;
+}
+
+.c9 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c9 .horizontal-separator {
+  height: 2px;
+  width: 80%;
+  background: var(--border-new);
+}
+
+.c9 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c9 .comparison-value-container {
+  margin: auto auto 0 auto;
+}
+
+.c10 .comparison-label {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtext-3);
+}
+
+.c10 .comparison-toggle {
+  top: 0;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.c10 .toggle-button {
+  font-size: 10px;
+  width: 43px;
+}
+
+.c10 .toggle-button:first-of-type {
+  margin-left: 5px;
+}
+
+.c10 .toggle-button:last-of-type {
+  margin-right: 5px;
+}
+
+.c10 .vertical-separator {
+  height: 80%;
+  width: 2px;
+  background: var(--border-new);
+}
+
+.c8 {
+  min-height: 296px;
+}
+
+.c22 {
+  margin-top: 3rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:1600px) {
+  .c5 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c1 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c2 span b {
+    font-size: 0.725rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c3 {
+    border-radius: 0.625rem;
+    padding: 1rem 1.65rem 1.65rem 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c4 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c6 {
+    font-size: 1.95rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c6 sup {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c11 {
+    border-radius: 24px;
+    height: 32px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c11 .toggle-button {
+    height: 24px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c11::before {
+    top: 4px;
+    height: 24px;
+  }
+}
+
+@media (min-width:1600px) {
+  .c12 {
+    border-radius: 0.625rem;
+    padding: 1.65rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c14 > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+<div
+    class="container-fluid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="container-fluid"
+      >
+        <section
+          class="c0 container-fluid"
+        >
+          <div
+            class="mb-2 row"
+          >
+            <div
+              class="c1 col-16"
+            >
+              <h2>
+                Summary 
+              </h2>
+            </div>
+            <div
+              class="c2 col-8 d-flex align-items-center justify-content-end"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="mb-1 col-6"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Yield
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </div>
+                <div
+                  class="c6"
+                >
+                  12.00
+                  <sup>
+                    %
+                  </sup>
+                  <span>
+                    /annual
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-1 col-6"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Income
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                  <button
+                    class="c7"
+                    type="button"
+                  >
+                    Annual
+                  </button>
+                </div>
+                <div
+                  class="c6"
+                >
+                  $1,000
+                  <sup>
+                    .02
+                  </sup>
+                  <span>
+                    /monthly
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-1 col-6"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Risk
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                  <button
+                    class="c7"
+                    type="button"
+                  >
+                    Max Drawdown
+                  </button>
+                </div>
+                <div
+                  class="c6"
+                >
+                  26.21
+                  <sup>
+                    %
+                  </sup>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-1 col-6"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Allocation
+                </div>
+                <div
+                  class="c6"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      15.56
+                      <sup>
+                        %
+                      </sup>
+                      <span>
+                        /min
+                      </span>
+                    </div>
+                    <div
+                      class="allocation-separator"
+                    />
+                    <div>
+                      30.30
+                      <sup>
+                        %
+                      </sup>
+                      <span>
+                        /max
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="container-fluid"
+      >
+        <section
+          class="c0 container-fluid"
+        >
+          <div
+            class="mb-2 row"
+          >
+            <div
+              class="c1 col-16"
+            >
+              <h2>
+                Analytics 
+              </h2>
+            </div>
+            <div
+              class="c2 col-8 d-flex align-items-center justify-content-end"
+            />
+          </div>
+          <div
+            class="c8 mb-2 row"
+          >
+            <div
+              class="mb-1 col-12"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Risk comparison
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </div>
+                <div
+                  class="c9 row"
+                >
+                  <div
+                    class="col-7 d-flex flex-column justify-content-between"
+                  >
+                    <div
+                      class="comparison-value-container"
+                    >
+                      <div
+                        class="c6"
+                      >
+                        47.72
+                        <sup>
+                          %
+                        </sup>
+                      </div>
+                      <span
+                        class="comparison-label"
+                      >
+                        LESS RISK
+                      </span>
+                    </div>
+                    <div
+                      class="horizontal-separator m-auto"
+                    />
+                    <div
+                      class="comparison-value-container mt-0 mb-auto"
+                    >
+                      <div
+                        class="c6"
+                      >
+                        616
+                        <sup>
+                          bps
+                        </sup>
+                      </div>
+                      <span
+                        class="comparison-label"
+                      >
+                        REDUCTION
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="col-1 d-flex justify-content-center align-content-center"
+                  >
+                    <div
+                      class="vertical-separator m-auto"
+                    />
+                  </div>
+                  <div
+                    class="col-16"
+                  >
+                    <div
+                      style="width: 100%; height: 100%;"
+                    >
+                      <div
+                        style="width: 0px; height: 0px;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-1 col-12"
+              data-testid="Portfolio-Metric-Card"
+            >
+              <div
+                class="c3"
+              >
+                <div
+                  class="c4 d-flex align-items-center"
+                >
+                  Expense ratio comparison
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </div>
+                <div
+                  class="c10 row"
+                >
+                  <div
+                    class="col-7 d-flex flex-column justify-content-center"
+                  >
+                    <div
+                      class="c11 d-flex align-items-center mt-4 position-absolute comparison-toggle"
+                    >
+                      <button
+                        class="d-flex justify-content-center align-items-center toggle-button"
+                        data-testid="ToggleValue-Percent"
+                        type="button"
+                      >
+                        CASH
+                      </button>
+                      <button
+                        class="d-flex justify-content-center align-items-center toggle-button"
+                        data-testid="ToggleValue-Dollar"
+                        type="button"
+                      >
+                        BPS
+                      </button>
+                    </div>
+                    <div
+                      class="c6"
+                    >
+                      $588
+                      <sup>
+                        .41
+                      </sup>
+                    </div>
+                    <span
+                      class="comparison-label"
+                    >
+                      SAVED
+                    </span>
+                  </div>
+                  <div
+                    class="col-1 d-flex justify-content-center align-content-center"
+                  >
+                    <div
+                      class="vertical-separator m-auto"
+                    />
+                  </div>
+                  <div
+                    class="col-16"
+                  >
+                    <div
+                      style="width: 100%; height: 100%;"
+                    >
+                      <div
+                        style="width: 0px; height: 0px;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c8 row"
+          >
+            <div
+              class="col-12"
+            >
+              <div
+                class="c12 c13"
+                id="card"
+              >
+                <div
+                  class="c14"
+                >
+                  sector allocation
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </div>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16 row"
+                  >
+                    <div
+                      class="c17 col-13"
+                    >
+                      <canvas
+                        class="chartjs-render-monitor"
+                        height="0"
+                        id="sector-allocation"
+                        style="display: block;"
+                        width="0"
+                      />
+                    </div>
+                    <ul
+                      class="c18 0-legend col-11"
+                    >
+                      <li
+                        class="c19 row"
+                        data-testid="PortfolioReviewChart-LegendItem"
+                      >
+                        <div
+                          class="col-2"
+                        >
+                          <span
+                            style="background-color: rgb(1, 92, 255);"
+                          />
+                        </div>
+                        <span
+                          class=""
+                        >
+                          High Yield
+                        </span>
+                      </li>
+                      <li
+                        class="c19 row"
+                        data-testid="PortfolioReviewChart-LegendItem"
+                      >
+                        <div
+                          class="col-2"
+                        >
+                          <span
+                            style="background-color: rgb(150, 86, 255);"
+                          />
+                        </div>
+                        <span
+                          class=""
+                        >
+                          Core Bond
+                        </span>
+                      </li>
+                      <li
+                        class="c19 row"
+                        data-testid="PortfolioReviewChart-LegendItem"
+                      >
+                        <div
+                          class="col-2"
+                        >
+                          <span
+                            style="background-color: rgb(100, 87, 254);"
+                          />
+                        </div>
+                        <span
+                          class=""
+                        >
+                          Loan Participation Funds
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12"
+            >
+              <div
+                class="c12 c20"
+                id="card"
+              >
+                <div
+                  class="c14"
+                >
+                  yield contribution
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </div>
+                <div
+                  class="c16 row"
+                >
+                  <div
+                    class="c17 col-13"
+                  >
+                    <canvas
+                      class="chartjs-render-monitor"
+                      height="0"
+                      id="yield-contribution"
+                      style="display: block;"
+                      width="0"
+                    />
+                  </div>
+                  <ul
+                    class="c18 0-legend col-11"
+                  >
+                    <li
+                      class="c19 row"
+                      data-testid="PortfolioReviewChart-LegendItem"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <span
+                          style="background-color: rgb(1, 92, 255);"
+                        />
+                      </div>
+                      <span
+                        class=""
+                      >
+                        DoubleLine Opportunistic Credit Fund
+                      </span>
+                    </li>
+                    <li
+                      class="c19 row"
+                      data-testid="PortfolioReviewChart-LegendItem"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <span
+                          style="background-color: rgb(150, 86, 255);"
+                        />
+                      </div>
+                      <span
+                        class=""
+                      >
+                        Guggenheim Strategic Opportunities Fund
+                      </span>
+                    </li>
+                    <li
+                      class="c19 row"
+                      data-testid="PortfolioReviewChart-LegendItem"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <span
+                          style="background-color: rgb(100, 87, 254);"
+                        />
+                      </div>
+                      <span
+                        class=""
+                      >
+                        Nuveen Credit Strategies Income Fund
+                      </span>
+                    </li>
+                    <li
+                      class="c19 row"
+                      data-testid="PortfolioReviewChart-LegendItem"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <span
+                          style="background-color: rgb(81, 140, 255);"
+                        />
+                      </div>
+                      <span
+                        class=""
+                      >
+                        Xtrackers High Beta High Yield Bond ETF
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="mb-1 col"
+        data-testid="Portfolio-Metric-Card"
+      >
+        <div
+          class="c3"
+        >
+          <div
+            class="c4 d-flex align-items-center"
+          >
+            portfolio growth
+          </div>
+          <div
+            class="c21 col"
+          >
+            <canvas
+              class="chartjs-render-monitor"
+              height="0"
+              id="portfolio-growth"
+              style="display: block; width: 0px; height: 0px;"
+              width="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c22"
+      >
+        <div
+          class="container-fluid mb-3"
+        >
+          <section
+            class="c0 container-fluid"
+          >
+            <div
+              class="mb-2 row"
+            >
+              <div
+                class="c1 col-16"
+              >
+                <h2>
+                  Positions 
+                  <i
+                    class="c5"
+                  >
+                    <svg>
+                      info.svg
+                    </svg>
+                  </i>
+                </h2>
+              </div>
+              <div
+                class="c2 col-8 d-flex align-items-center justify-content-end"
+              >
+                <button
+                  class="c23"
+                >
+                  Export 
+                  <svg>
+                    export.svg
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="c24 col"
+              >
+                <div
+                  class="c25"
+                >
+                  <span
+                    class="row-label"
+                  >
+                    cash available:
+                  </span>
+                  <span
+                    class="row-value"
+                  >
+                    $5,011.90
+                  </span>
+                </div>
+                <div
+                  class="c26 ag-theme-alpine-dark"
+                >
+                  <div
+                    style="height: 100%;"
+                  >
+                    <div
+                      class="ag-root-wrapper ag-layout-normal ag-ltr"
+                      ref="eRootWrapper"
+                    >
+                      
+                
+                      <!--AG-GRID-HEADER-DROP-ZONES-->
+                      <div
+                        class="ag-column-drop-wrapper"
+                      >
+                        <div
+                          class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                        >
+                          <div
+                            class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                          >
+                            <span
+                              class="ag-icon ag-icon-group ag-column-drop-icon ag-column-drop-horizontal-icon"
+                              unselectable="on"
+                            />
+                          </div>
+                          <div
+                            class="ag-column-drop-list ag-column-drop-horizontal-list"
+                          >
+                            <span
+                              class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                            >
+                              Drag here to set row groups
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="ag-unselectable ag-column-drop ag-column-drop-horizontal ag-column-drop-empty ag-hidden"
+                        >
+                          <div
+                            class="ag-column-drop-title-bar ag-column-drop-horizontal-title-bar"
+                          >
+                            <span
+                              class="ag-icon ag-icon-pivot ag-column-drop-icon ag-column-drop-horizontal-icon"
+                              unselectable="on"
+                            />
+                          </div>
+                          <div
+                            class="ag-column-drop-list ag-column-drop-horizontal-list"
+                          >
+                            <span
+                              class="ag-column-drop-empty-message ag-column-drop-horizontal-empty-message"
+                            >
+                              Drag here to set column labels
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                      <div
+                        class="ag-root-wrapper-body ag-layout-normal ag-focus-managed"
+                        ref="rootWrapperBody"
+                      >
+                        <div
+                          class="ag-tab-guard ag-tab-guard-top"
+                          tabindex="0"
+                        />
+                        
+                    
+                        <!--AG-GRID-COMP-->
+                        <div
+                          aria-colcount="13"
+                          aria-rowcount="1"
+                          class="ag-root ag-unselectable ag-layout-normal"
+                          ref="gridPanel"
+                          role="grid"
+                          unselectable="on"
+                        >
+                          
+        
+                          <!--AG-HEADER-ROOT-->
+                          <div
+                            class="ag-header ag-focus-managed ag-pivot-off"
+                            ref="headerRoot"
+                            role="presentation"
+                            style="height: 37px; min-height: 37px;"
+                            unselectable="on"
+                          >
+                            
+            
+                            <div
+                              class="ag-pinned-left-header ag-hidden"
+                              ref="ePinnedLeftHeader"
+                              role="presentation"
+                              style="width: 0px; max-width: 0px; min-width: 0px;"
+                            >
+                              <div
+                                aria-rowindex="1"
+                                class="ag-header-row ag-header-row-column"
+                                role="row"
+                                style="top: 0px; height: 36px; width: 0px;"
+                              />
+                            </div>
+                            
+            
+                            <div
+                              class="ag-header-viewport"
+                              ref="eHeaderViewport"
+                              role="presentation"
+                            >
+                              
+                
+                              <div
+                                class="ag-header-container"
+                                ref="eHeaderContainer"
+                                role="rowgroup"
+                                style="width: 1680px;"
+                              >
+                                <div
+                                  aria-rowindex="1"
+                                  class="ag-header-row ag-header-row-column"
+                                  role="row"
+                                  style="top: 0px; height: 36px; width: 1680px;"
+                                >
+                                  <div
+                                    class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                    col-id="nonTradable"
+                                    role="presentation"
+                                    style="width: 200px; left: 0px;"
+                                    tabindex="-1"
+                                    unselectable="on"
+                                  >
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-resize"
+                                      ref="eResize"
+                                      role="presentation"
+                                    />
+                                    
+            
+                                    <!--AG-CHECKBOX-->
+                                    <div
+                                      class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                      ref="cbSelectAll"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      <label
+                                        class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                        for="ag-input-id-61"
+                                        ref="eLabel"
+                                      />
+                                      
+            
+                                      <div
+                                        class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                        ref="eWrapper"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <input
+                                          aria-label="Toggle Selection of All Rows"
+                                          class="ag-input-field-input ag-checkbox-input"
+                                          id="ag-input-id-61"
+                                          ref="eInput"
+                                          type="checkbox"
+                                        />
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                    
+        
+                                    <div
+                                      class="ag-cell-label-container ag-header-cell-sorted-none"
+                                    >
+                                      
+            
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-cell-menu-button"
+                                        ref="eMenu"
+                                        style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-menu"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                        unselectable="on"
+                                      >
+                                        
+                
+                                        <span
+                                          aria-colindex="1"
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                          role="columnheader"
+                                          unselectable="on"
+                                        >
+                                          Tradable
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-asc"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-desc"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="ag-header-cell ag-focus-managed ag-header-cell-sortable"
+                                    col-id="asset.ticker"
+                                    role="presentation"
+                                    style="width: 88px; left: 200px;"
+                                    tabindex="-1"
+                                    unselectable="on"
+                                  >
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-resize"
+                                      ref="eResize"
+                                      role="presentation"
+                                    />
+                                    
+            
+                                    <!--AG-CHECKBOX-->
+                                    <div
+                                      class="ag-header-select-all ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-hidden"
+                                      ref="cbSelectAll"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      <label
+                                        class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                        for="ag-input-id-64"
+                                        ref="eLabel"
+                                      />
+                                      
+            
+                                      <div
+                                        class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                        ref="eWrapper"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <input
+                                          aria-label="Toggle Selection of All Rows"
+                                          class="ag-input-field-input ag-checkbox-input"
+                                          id="ag-input-id-64"
+                                          ref="eInput"
+                                          type="checkbox"
+                                        />
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                    
+        
+                                    <div
+                                      class="ag-cell-label-container ag-header-cell-sorted-none"
+                                    >
+                                      
+            
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-cell-menu-button"
+                                        ref="eMenu"
+                                        style="opacity: 0; transition: opacity 0.2s, border 0.2s;"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-menu"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                        unselectable="on"
+                                      >
+                                        
+                
+                                        <span
+                                          aria-colindex="2"
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                          role="columnheader"
+                                          unselectable="on"
+                                        >
+                                          Ticker
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-asc"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-desc"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+            
+                            </div>
+                            
+            
+                            <div
+                              class="ag-pinned-right-header ag-hidden"
+                              ref="ePinnedRightHeader"
+                              role="presentation"
+                              style="width: 0px; max-width: 0px; min-width: 0px;"
+                            >
+                              <div
+                                aria-rowindex="1"
+                                class="ag-header-row ag-header-row-column"
+                                role="row"
+                                style="top: 0px; height: 36px; width: 0px;"
+                              />
+                            </div>
+                            
+        
+                          </div>
+                          
+        
+                          <div
+                            class="ag-floating-top"
+                            ref="eTop"
+                            role="presentation"
+                            style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                            unselectable="on"
+                          >
+                            
+            
+                            <div
+                              class="ag-pinned-left-floating-top ag-hidden"
+                              ref="eLeftTop"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-floating-top-viewport"
+                              ref="eTopViewport"
+                              role="presentation"
+                              unselectable="on"
+                            >
+                              
+                
+                              <div
+                                class="ag-floating-top-container"
+                                ref="eTopContainer"
+                                role="presentation"
+                                style="width: 1680px;"
+                                unselectable="on"
+                              />
+                              
+            
+                            </div>
+                            
+            
+                            <div
+                              class="ag-pinned-right-floating-top ag-hidden"
+                              ref="eRightTop"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-floating-top-full-width-container ag-hidden"
+                              ref="eTopFullWidthContainer"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+        
+                          </div>
+                          
+        
+                          <div
+                            class="ag-body-viewport ag-layout-normal ag-row-no-animation"
+                            ref="eBodyViewport"
+                            role="presentation"
+                          >
+                            
+            
+                            <div
+                              class="ag-pinned-left-cols-container ag-hidden"
+                              ref="eLeftContainer"
+                              role="presentation"
+                              style="height: 1px;"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-center-cols-clipper"
+                              ref="eCenterColsClipper"
+                              role="presentation"
+                              style="height: 1px;"
+                              unselectable="on"
+                            >
+                              
+                
+                              <div
+                                class="ag-center-cols-viewport"
+                                ref="eCenterViewport"
+                                role="presentation"
+                                style="height: calc(100% + 0px);"
+                              >
+                                
+                    
+                                <div
+                                  class="ag-center-cols-container"
+                                  ref="eCenterContainer"
+                                  role="rowgroup"
+                                  style="width: 1680px; height: 1px;"
+                                  unselectable="on"
+                                />
+                                
+                
+                              </div>
+                              
+            
+                            </div>
+                            
+            
+                            <div
+                              class="ag-pinned-right-cols-container ag-hidden"
+                              ref="eRightContainer"
+                              role="presentation"
+                              style="height: 1px;"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-full-width-container"
+                              ref="eFullWidthContainer"
+                              role="presentation"
+                              style="height: 1px;"
+                              unselectable="on"
+                            />
+                            
+        
+                          </div>
+                          
+        
+                          <div
+                            class="ag-floating-bottom"
+                            ref="eBottom"
+                            role="presentation"
+                            style="min-height: 0px; height: 0px; display: none; overflow-y: hidden;"
+                            unselectable="on"
+                          >
+                            
+            
+                            <div
+                              class="ag-pinned-left-floating-bottom ag-hidden"
+                              ref="eLeftBottom"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-floating-bottom-viewport"
+                              ref="eBottomViewport"
+                              role="presentation"
+                              unselectable="on"
+                            >
+                              
+                
+                              <div
+                                class="ag-floating-bottom-container"
+                                ref="eBottomContainer"
+                                role="presentation"
+                                style="width: 1680px;"
+                                unselectable="on"
+                              />
+                              
+            
+                            </div>
+                            
+            
+                            <div
+                              class="ag-pinned-right-floating-bottom ag-hidden"
+                              ref="eRightBottom"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+            
+                            <div
+                              class="ag-floating-bottom-full-width-container ag-hidden"
+                              ref="eBottomFullWidthContainer"
+                              role="presentation"
+                              unselectable="on"
+                            />
+                            
+        
+                          </div>
+                          
+        
+                          <div
+                            aria-hidden="true"
+                            class="ag-body-horizontal-scroll"
+                            ref="eHorizontalScrollBody"
+                            style="height: 0px; max-height: 0px; min-height: 0px;"
+                          >
+                            
+            
+                            <div
+                              class="ag-horizontal-left-spacer ag-scroller-corner"
+                              ref="eHorizontalLeftSpacer"
+                              style="width: 0px; max-width: 0px; min-width: 0px;"
+                            />
+                            
+            
+                            <div
+                              class="ag-body-horizontal-scroll-viewport"
+                              ref="eBodyHorizontalScrollViewport"
+                              style="height: 0px; max-height: 0px; min-height: 0px;"
+                            >
+                              
+                
+                              <div
+                                class="ag-body-horizontal-scroll-container"
+                                ref="eBodyHorizontalScrollContainer"
+                                style="width: 1680px; height: 0px; max-height: 0px; min-height: 0px;"
+                              />
+                              
+            
+                            </div>
+                            
+            
+                            <div
+                              class="ag-horizontal-right-spacer ag-scroller-corner"
+                              ref="eHorizontalRightSpacer"
+                              style="width: 0px; max-width: 0px; min-width: 0px;"
+                            />
+                            
+        
+                          </div>
+                          
+        
+                          <!--AG-OVERLAY-WRAPPER-->
+                          <div
+                            aria-hidden="true"
+                            class="ag-overlay"
+                            ref="overlayWrapper"
+                          >
+                            
+            
+                            <div
+                              class="ag-overlay-panel"
+                            >
+                              
+                
+                              <div
+                                class="ag-overlay-wrapper ag-layout-normal ag-overlay-loading-wrapper"
+                                ref="eOverlayWrapper"
+                              >
+                                <span
+                                  class="ag-overlay-loading-center"
+                                >
+                                  Loading...
+                                </span>
+                              </div>
+                              
+            
+                            </div>
+                            
+        
+                          </div>
+                          
+    
+                        </div>
+                        
+                    
+                        <!--AG-SIDE-BAR-->
+                        <div
+                          class="ag-side-bar ag-unselectable ag-hidden"
+                          ref="sideBar"
+                        >
+                          
+            
+                          <!--AG-SIDE-BAR-BUTTONS-->
+                          <div
+                            class="ag-side-buttons"
+                            ref="sideBarButtons"
+                          />
+                          
+        
+                        </div>
+                        
+                
+                        <div
+                          class="ag-tab-guard ag-tab-guard-bottom"
+                          tabindex="0"
+                        />
+                      </div>
+                      
+                
+                      <!--AG-STATUS-BAR-->
+                      <div
+                        class="ag-status-bar ag-hidden"
+                        ref="statusBar"
+                      >
+                        
+            
+                        <div
+                          class="ag-status-bar-left"
+                          ref="eStatusBarLeft"
+                        />
+                        
+            
+                        <div
+                          class="ag-status-bar-center"
+                          ref="eStatusBarCenter"
+                        />
+                        
+            
+                        <div
+                          class="ag-status-bar-right"
+                          ref="eStatusBarRight"
+                        />
+                        
+        
+                      </div>
+                      
+                
+                      <!--AG-PAGINATION-->
+                      <div
+                        class="ag-paging-panel ag-unselectable ag-hidden"
+                      >
+                        
+                
+                        <span
+                          class="ag-paging-row-summary-panel"
+                          ref="eSummaryPanel"
+                        >
+                          
+                    
+                          <span
+                            class="ag-paging-row-summary-panel-number"
+                            ref="lbFirstRowOnPage"
+                          />
+                          
+                    to
+                    
+                          <span
+                            class="ag-paging-row-summary-panel-number"
+                            ref="lbLastRowOnPage"
+                          />
+                          
+                    of
+                    
+                          <span
+                            class="ag-paging-row-summary-panel-number"
+                            ref="lbRecordCount"
+                          />
+                          
+                
+                        </span>
+                        
+                
+                        <span
+                          class="ag-paging-page-summary-panel"
+                        >
+                          
+                    
+                          <div
+                            class="ag-paging-button-wrapper"
+                            ref="btFirst"
+                          >
+                            <span
+                              class="ag-icon ag-icon-first"
+                              unselectable="on"
+                            />
+                            
+                        
+                            <button
+                              class="ag-paging-button"
+                              type="button"
+                            >
+                              First
+                            </button>
+                            
+                    
+                          </div>
+                          
+                    
+                          <div
+                            class="ag-paging-button-wrapper"
+                            ref="btPrevious"
+                          >
+                            <span
+                              class="ag-icon ag-icon-previous"
+                              unselectable="on"
+                            />
+                            
+                        
+                            <button
+                              class="ag-paging-button"
+                              type="button"
+                            >
+                              Previous
+                            </button>
+                            
+                    
+                          </div>
+                          
+                    
+                          <span
+                            class="ag-paging-description"
+                          >
+                            
+                        Page
+                        
+                            <span
+                              class="ag-paging-number"
+                              ref="lbCurrent"
+                            />
+                            
+                        of
+                        
+                            <span
+                              class="ag-paging-number"
+                              ref="lbTotal"
+                            />
+                            
+                    
+                          </span>
+                          
+                    
+                          <span
+                            class="ag-paging-number"
+                            ref="lbTotal"
+                          />
+                          
+                    
+                          <div
+                            class="ag-paging-button-wrapper"
+                            ref="btNext"
+                          >
+                            <span
+                              class="ag-icon ag-icon-next"
+                              unselectable="on"
+                            />
+                            
+                        
+                            <button
+                              class="ag-paging-button"
+                              type="button"
+                            >
+                              Next
+                            </button>
+                            
+                    
+                          </div>
+                          
+                    
+                          <div
+                            class="ag-paging-button-wrapper"
+                            ref="btLast"
+                          >
+                            <span
+                              class="ag-icon ag-icon-last"
+                              unselectable="on"
+                            />
+                            
+                        
+                            <button
+                              class="ag-paging-button"
+                              type="button"
+                            >
+                              Last
+                            </button>
+                            
+                    
+                          </div>
+                          
+                
+                        </span>
+                        
+            
+                      </div>
+                      
+                
+                      <!--AG-WATERMARK-->
+                      <div
+                        class="ag-watermark ag-hidden"
+                      >
+                        
+                    
+                        <div
+                          class="ag-watermark-text"
+                          ref="eLicenseTextRef"
+                        />
+                        
+               
+                      </div>
+                      
+            
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c25 hidden-pdf"
+                >
+                  <span
+                    class="row-label"
+                  >
+                    rows: 
+                  </span>
+                  <span
+                    class="row-value"
+                  >
+                    4
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="c27 container-fluid"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col"
+                  >
+                    <p>
+                      All orders received are considered “Day orders” and advertised yield levels on YieldX should be viewed as accurate estimations of transactable market levels given the aggregation of third party feeds received. Orders are no guarantee of execution and will depend on available liquidity and market stability at any given time. Orders will be executed through a variety of market platforms offering firm liquidity or via RFQ (Request For Quote) where advantageous to the customer and will be aggregated with other customer orders to help improve execution if necessary. No commission or mark-ups will be charged on any user order so the level we trade-at is the level you receive. Any orders raised outside of normal trading hours (8.30am-4.30pm EST.) will be raised at the start of the following trading day and levels may differ from levels shown at time of order.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

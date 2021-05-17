@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiveProfitLossValues Should display the value returned from getTodayGain, + $5.50 in this case 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border-new);
+}
+
+.c0 span.label {
+  display: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-family: var(--font-primary);
+  color: var(--subtext-3);
+  font-size: 0.6rem;
+}
+
+.c0 span.value {
+  display: inherit;
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.c0 span.value.positive {
+  color: var(--active);
+}
+
+.c0 span.value.negative {
+  color: var(--issue);
+}
+
+.c0 .divider {
+  border-right: 1px solid var(--border-new);
+}
+
+@media (min-width:1600px) {
+  .c0 {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 span.label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 span.value {
+    font-size: 0.85rem;
+  }
+}
+
+<div
+    class="row"
+  >
+    <div
+      class="c0 col-24 d-flex justify-content-around"
+    >
+      <div
+        class="d-inline-block performance"
+      >
+        <span
+          class="label"
+        >
+          today gain/loss:
+        </span>
+        <span
+          class="value positive"
+        >
+          + $2.50
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

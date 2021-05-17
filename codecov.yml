@@ -1,0 +1,9 @@
+ignore:
+  - "client/src/mock-requests"
+  - "client/src/setupProxy.js"
+  - "client/src/serviceWorker.ts"
+  - "client/src/providers/graphql/hooks/index.ts"
+  - "client/src/providers/graphql/hooks/types.ts"
+  - "client/**/*.stories.tsx"
+  - "client/**/*.test.tsx"
+  - "client/**/*.styles.tsx"
